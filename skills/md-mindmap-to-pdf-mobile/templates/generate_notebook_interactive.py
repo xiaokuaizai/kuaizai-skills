@@ -286,14 +286,14 @@ def fmt_word(text):
         rest = parts[1].strip() if len(parts) > 1 else ""
         html = (
             f'<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:6px;margin-bottom:4px;">'
-            f'<strong style="font-size:13px;white-space:nowrap;color:#fff;">{word}</strong>'
-            f'<span style="color:#aaa;font-size:12px;white-space:nowrap;">{phonetic}</span>'
+            f'<strong style="font-size:13px;white-space:nowrap;color:#1a1a2e;">{word}</strong>'
+            f'<span style="color:#666;font-size:12px;white-space:nowrap;">{phonetic}</span>'
             f'</div>'
         )
         if rest:
-            html += f'<div style="color:#ccc;font-size:12px;line-height:1.5;">{rest}</div>'
+            html += f'<div style="color:#444;font-size:12px;line-height:1.5;">{rest}</div>'
         return html
-    return f'<span style="color:#fff;">{text}</span>'
+    return f'<span style="color:#333;">{text}</span>'
 
 
 def build_html(root_title, info_text, categories):
@@ -322,8 +322,8 @@ body {{
     margin: 0;
     padding: 24px;
     font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
-    background: #0d0d0d;
-    color: #e0e0e0;
+    background: #ffffff;
+    color: #333333;
     min-height: 100vh;
 }}
 .page {{
@@ -333,7 +333,7 @@ body {{
 }}
 .container {{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
     position: relative;
     z-index: 1;
@@ -341,8 +341,8 @@ body {{
 }}
 /* 根节点 */
 .root {{
-    background: #2d2d3a;
-    color: #fff;
+    background: #f0f4f8;
+    color: #1a1a2e;
     padding: 20px 24px;
     border-radius: 16px;
     font-size: 18px;
@@ -350,9 +350,8 @@ body {{
     text-align: center;
     line-height: 1.5;
     flex-shrink: 0;
-    margin-top: 32px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-    border: 1px solid #3a3a4a;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border: 1px solid #d0d8e0;
     min-width: 140px;
     max-width: 220px;
     cursor: default;
@@ -360,34 +359,34 @@ body {{
 }}
 .root:hover {{
     transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.14);
 }}
 .root small {{
     font-size: 14px;
     font-weight: normal;
     display: block;
     margin-top: 6px;
-    color: rgba(255,255,255,0.7);
+    color: #666666;
 }}
 .root-info {{
     margin-top: 12px;
     padding-top: 10px;
-    border-top: 1px solid rgba(255,255,255,0.15);
+    border-top: 1px solid rgba(0,0,0,0.1);
     font-size: 12px;
     font-weight: normal;
     line-height: 1.5;
     text-align: left;
-    color: rgba(255,255,255,0.75);
+    color: #555555;
 }}
 /* 分支区域 */
 .branches {{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
 }}
 .branch {{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 24px;
 }}
 /* 分类节点 */
@@ -398,18 +397,17 @@ body {{
     font-weight: bold;
     white-space: nowrap;
     flex-shrink: 0;
-    margin-top: 8px;
     cursor: pointer;
     user-select: none;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.35);
-    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    border: 1px solid rgba(0,0,0,0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
     position: relative;
 }}
 .cat-node:hover {{
     transform: translateY(-2px) scale(1.03);
-    box-shadow: 0 5px 16px rgba(0,0,0,0.45);
-    filter: brightness(1.1);
+    box-shadow: 0 5px 14px rgba(0,0,0,0.18);
+    filter: brightness(1.05);
 }}
 .cat-node.collapsed::after {{
     content: " +";
@@ -438,32 +436,33 @@ body {{
 }}
 /* 单词卡片 */
 .word-card {{
-    background: #1e1e2e;
-    color: #e0e0e0;
+    background: #ffffff;
+    color: #333333;
     padding: 10px 14px;
     border-radius: 12px;
     font-size: 12px;
     line-height: 1.5;
-    border: 1px solid #2a2a3a;
+    border: 1px solid #e0e0e0;
     min-width: 140px;
     max-width: 200px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }}
 .word-card:hover {{
     transform: translateY(-1px);
-    border-color: #3a3a5a;
+    border-color: #c0c0c0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
 }}
 /* 拆分内嵌 */
 .split-inline {{
     margin-top: 8px;
     padding: 6px 10px;
-    background: rgba(79, 195, 247, 0.1);
-    color: #4fc3f7;
+    background: #e3f2fd;
+    color: #01579b;
     border-radius: 8px;
     font-size: 11px;
     line-height: 1.4;
-    border: 1px solid rgba(79, 195, 247, 0.2);
+    border: 1px solid #90caf9;
 }}
 /* SVG 连线 */
 svg.lines {{
@@ -501,12 +500,13 @@ svg.lines {{
 </div>
 </div>
 <script>
-// 贝塞尔曲线绘制
+// 贝塞尔曲线绘制（控制点分别在起点右侧和终点左侧，形成平滑 S 形弧线）
 function drawBezier(x1, y1, x2, y2, color, width) {
     const dx = x2 - x1;
-    const c1x = x1 + dx * 0.5;
+    const offset = Math.min(40, Math.abs(dx) * 0.4);
+    const c1x = x1 + offset;
     const c1y = y1;
-    const c2x = x1 + dx * 0.5;
+    const c2x = x2 - offset;
     const c2y = y2;
     const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
     p.setAttribute("d", `M ${x1} ${y1} C ${c1x} ${c1y}, ${c2x} ${c2y}, ${x2} ${y2}`);
