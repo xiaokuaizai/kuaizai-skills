@@ -11,6 +11,9 @@ triggers:
   - 移动端思维导图
   - mobile pdf mindmap
   - md 转手机版思维导图
+  - notebook 思维导图
+  - 深色思维导图
+  - 交互式思维导图
 allowed-tools:
   - Bash
   - Read
@@ -24,9 +27,14 @@ allowed-tools:
 把层级化的 markdown 索引转成**适合手机查看**的竖版思维导图 PDF。
 去除了桌面版的复杂连线和横向展开，改用纵向堆叠、单列卡片、内嵌拆分的简洁设计。
 
-## 与桌面版的核心区别
+## 输出模式
 
-| 特性 | 桌面版 md-mindmap-to-pdf | 移动端 mobile 版 |
+本 skill 支持两种输出模式：
+
+### 模式一：移动端竖版 PDF（经典版）
+适合在手机 PDF 阅读器中纵向滑动查看。
+
+| 特性 | 桌面版 md-mindmap-to-pdf | 移动端竖版 PDF |
 |------|------------------------|----------------|
 | 布局方向 | 横向展开（根节点在左，分类向右展开） | 纵向堆叠（根节点在上，分类依次向下） |
 | 列数 | 双列/多列 grid（dense 模式） | 单列布局，卡片独占一行 |
@@ -34,6 +42,19 @@ allowed-tools:
 | 拆分卡片 | 独立蓝色 .split-card | 内嵌到单词卡片中（.split-inline） |
 | 视口 | 3000x2000（防止 grid 挤压） | 414x800（手机宽度） |
 | 用途 | 电脑查看、打印 | 手机查看、微信/钉钉传阅 |
+
+### 模式二：Notebook 风格交互式 HTML（推荐）
+模仿 Notebook 视频风格的现代深色主题思维导图，**可点击展开/折叠**，在手机浏览器中打开效果最佳。
+
+| 特性 | 移动端竖版 PDF | Notebook 交互式 HTML |
+|------|---------------|---------------------|
+| 背景 | 浅灰 #f0f2f5 | 深黑 #0d0d0d |
+| 根节点 | 扁平灰 | 深灰圆角卡片 + 阴影 |
+| 分类节点 | 统一黄色 | 按语义分配主题色（黄/绿/橙/紫等） |
+| 连线 | 无 | 贝塞尔曲线（平滑弧线） |
+| 交互 | 无 | 点击分类节点展开/折叠单词卡片 |
+| 文件格式 | PDF | HTML（手机浏览器直接打开） |
+| 用途 | 传阅、打印 | 交互学习、手机浏览器查看 |
 
 ## 前置检查
 
@@ -66,7 +87,9 @@ fi
 
 ## 工作流程
 
-### 1. 读取并解析 Markdown
+### 模式一：移动端竖版 PDF（经典版）
+
+#### 1. 读取并解析 Markdown
 
 解析规则与桌面版一致：
 - `# ` 开头的是**根节点标题**（一级标题），标题下方连续的 `> ` 引用块会被提取并渲染到根节点内部
@@ -75,7 +98,7 @@ fi
 - 缩进的 `  - → re(回)+turn(转)` 是**词根拆分**，会被内嵌到单词卡片底部
 - 过滤掉 `关联词网`、`相关页面`、`相关链接` 等非分类尾部区块
 
-### 2. 生成移动端 HTML
+#### 2. 生成移动端 HTML
 
 复制模板并修改路径：
 
@@ -91,7 +114,7 @@ cp ~/.claude/skills/md-mindmap-to-pdf-mobile/templates/export_mobile_pdf.js "$OU
 cd "$OUTPUT_DIR" && python generate_mobile_mindmap.py
 ```
 
-### 3. 导出 PDF
+#### 3. 导出 PDF
 
 使用 `run-code` + Playwright API（同桌面版）：
 
@@ -99,7 +122,68 @@ cd "$OUTPUT_DIR" && python generate_mobile_mindmap.py
 "$PWCLI" run-code --filename "$OUTPUT_DIR/export_mobile_pdf.js"
 ```
 
-## 核心坑点与解决方案
+### 模式二：Notebook 风格交互式 HTML
+
+#### 1. 批量生成交互式 HTML
+
+使用 `generate_notebook_interactive.py` 模板，它会自动扫描 `wiki/concepts` 目录下的所有 `前缀_*.md` 文件，生成对应的交互式 HTML：
+
+```bash
+cp ~/.claude/skills/md-mindmap-to-pdf-mobile/templates/generate_notebook_interactive.py "$OUTPUT_DIR/"
+# 修改脚本中的 WIKI_DIR 和 OUTPUT_DIR 路径
+python "$OUTPUT_DIR/generate_notebook_interactive.py"
+```
+
+#### 2. 在手机浏览器中打开
+
+生成的 `.html` 文件可以直接在手机浏览器中打开（通过文件传输或本地 HTTP 服务器）。
+
+**交互说明**：
+- 初始状态只显示根节点和分类标签
+- 点击分类标签：该分支下的单词卡片以 `opacity` 淡入动画展开，同时贝塞尔连线动态绘制
+- 再次点击：折叠收起，连线同步更新
+- 分类标签旁的 `+` / `-` 符号指示展开状态
+
+#### 3. 视觉特征
+
+- **深色背景**：`#0d0d0d` 近纯黑，夜间浏览友好
+- **根节点**：`#2d2d3a` 深灰圆角卡片，带微阴影和 hover 上浮效果
+- **分类节点**：按语义分配主题色（动作=黄、状态=绿、抽象=橙、空间=紫、情感=粉、时间=青），圆角胶囊形
+- **单词卡片**：`#1e1e2e` 深色底 + 所属分类颜色的左侧边框高亮，与背景融合又保持层次
+- **拆分内嵌**：`#4fc3f7` 青色边框 + 半透明背景，嵌在卡片底部
+- **贝塞尔连线**：根→分类用分类同色粗线（2.5px），分类→单词用蓝灰细线（1.5px）
+
+## Notebook 风格核心坑点与解决方案
+
+### 坑 1：`max-height` 动画导致 flex 子项宽度塌陷
+
+**现象**：使用 `max-height: 0 → scrollHeight` 过渡展开单词卡片时，所有卡片被压缩成一条垂直线，宽度为 0。
+
+**原因**：Chromium 在 `max-height` 动画期间对 `overflow: hidden` 的 flex 容器内部宽度计算有 bug。
+
+**解决**：放弃 `max-height` 动画，改用 `display: none → flex` 切换 + `opacity` 淡入淡出：
+- 展开：先 `display: flex`，下一帧再添加 `.expanded` 类触发 `opacity` 过渡
+- 折叠：先移除 `.expanded` 触发 `opacity` 淡出，300ms 后再 `display: none`
+- SVG 连线在 `requestAnimationFrame` 中重绘，确保布局稳定后计算正确位置
+
+### 坑 2：Python `hash()` 不稳定导致分类颜色每次运行不同
+
+**现象**：同一分类标题在不同运行中得到不同颜色。
+
+**解决**：使用稳定哈希替代 `hash(title)`：
+```python
+idx = sum(ord(c) for c in title) % len(FALLBACK_COLORS)
+```
+
+### 坑 3：`display: none` 元素无法计算 bounding box
+
+**现象**：折叠状态下 SVG 连线指向错误位置。
+
+**解决**：`redrawAll()` 只绘制已展开分支的连线（`wgs.classList.contains("expanded")`），折叠分支的单词卡片不参与布局，不绘制连线。
+
+---
+
+## 移动端竖版 PDF 坑点
 
 ### 坑 1：音标在窄卡片内被不自然断行
 
@@ -148,6 +232,25 @@ await page.setViewportSize({ width: 414, height: 800 });
 
 ## 节点配色规范
 
+### Notebook 深色主题（交互式 HTML）
+
+| 节点类型 | 背景色 | 文字色 | 边框/高亮 | 用途 |
+|---------|--------|--------|----------|------|
+| 页面背景 | `#0d0d0d` | `#e0e0e0` | - | 深色底 |
+| 根节点 | `#2d2d3a` | `#fff` | `#3a3a4a` | 词根/前缀主题 |
+| 分类-动作 | `#ffc107` | `#111` | - | 动作/行为/动态相关 |
+| 分类-状态 | `#4caf50` | `#111` | - | 状态/性质/特征相关 |
+| 分类-抽象 | `#ff9800` | `#111` | - | 抽象/概念/思想相关 |
+| 分类-空间 | `#9c27b0` | `#fff` | - | 空间/位置/方向相关 |
+| 分类-情感 | `#e91e63` | `#fff` | - | 情感/心理/感受相关 |
+| 分类-时间 | `#00bcd4` | `#111` | - | 时间/频率/程度相关 |
+| 单词卡片 | `#1e1e2e` | `#e0e0e0` | 分类色左边框 | 单词+音标+释义 |
+| 拆分内嵌 | `rgba(79,195,247,0.1)` | `#4fc3f7` | `rgba(79,195,247,0.2)` | 词根拆分说明 |
+| 连线-根到分类 | 分类同色 | - | - | 粗线 2.5px 贝塞尔 |
+| 连线-分类到单词 | `#64b5f6` | - | - | 细线 1.5px 贝塞尔 |
+
+### 移动端竖版 PDF（经典版）
+
 | 节点类型 | 背景色 | 文字色 | 用途 |
 |---------|--------|--------|------|
 | 根节点 | `#9e9e9e` | `#fff` | 词根/前缀主题 |
@@ -157,6 +260,13 @@ await page.setViewportSize({ width: 414, height: 800 });
 
 ## 调试指南
 
+### Notebook 交互式 HTML
+- **点击分类后单词卡片不显示**：检查是否使用了 `display:flex + opacity` 动画方案，避免 `max-height` 动画
+- **连线位置错位**：检查 `redrawAll()` 是否在 `requestAnimationFrame` 中调用，确保布局稳定
+- **分类颜色每次运行不同**：检查是否使用了 `sum(ord(c) for c in title)` 稳定哈希
+- **折叠后页面仍有大量空白**：检查折叠后是否设置了 `display: none` 释放空间
+
+### 移动端竖版 PDF
 - **PDF 在手机上显示太宽**：检查 `page.setViewportSize({width: 414, height: 800})` 是否设置
 - **音标还是被截断**：检查 `fmt_word` 中 flex 容器的 `white-space: nowrap`
 - **拆分块前面有 "-"**：检查 `clean_split` 正则是否生效
@@ -164,6 +274,12 @@ await page.setViewportSize({ width: 414, height: 800 });
 
 ## 输出约定
 
+### Notebook 交互式 HTML
+- HTML 文件：按用户指定路径交付，后缀 `.html`
+- 用途：手机浏览器直接打开，支持点击展开/折叠
+- 无需 Playwright 导出，纯静态 HTML 文件
+
+### 移动端竖版 PDF
 - HTML 临时文件：与输出 PDF 同目录，后缀 `.html`
 - PDF 文件：按用户指定路径交付，建议后缀 `_mobile.pdf`
 - 视口宽度：固定 414px（iPhone 14 Pro Max 逻辑宽度）
