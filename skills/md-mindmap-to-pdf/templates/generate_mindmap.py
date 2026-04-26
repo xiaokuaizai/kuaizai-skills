@@ -91,7 +91,7 @@ def fmt_word(text):
         parts = text.split(phonetic, 1)
         word = parts[0].strip()
         rest = parts[1].strip() if len(parts) > 1 else ""
-        html = f'<strong style="font-size:15px;">{word}</strong> <span style="color:#555;">{phonetic}</span>'
+        html = f'<strong style="font-size:14px;">{word}</strong> <span style="color:#555;">{phonetic}</span>'
         if rest:
             html += f'<br><span style="color:#444;">{rest}</span>'
         return html
@@ -118,41 +118,42 @@ def build_html(root_title, info_text, categories):
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{
     margin: 0;
-    padding: 40px;
+    padding: 24px;
     font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
     background: #f0f2f5;
 }}
 .page {{
     position: relative;
     display: inline-block;
+    padding-right: 40px;
 }}
 .container {{
     display: flex;
     align-items: flex-start;
-    gap: 60px;
+    gap: 40px;
     position: relative;
     z-index: 1;
-    padding-bottom: 40px;
+    padding-bottom: 24px;
 }}
 .root {{
     background: #9e9e9e;
     color: #fff;
-    padding: 28px 36px;
+    padding: 24px 28px;
     border-radius: 16px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     line-height: 1.5;
     box-shadow: 0 6px 16px rgba(0,0,0,0.18);
     flex-shrink: 0;
-    margin-top: 40px;
+    margin-top: 32px;
 }}
-.root small {{ font-size: 18px; font-weight: normal; display: block; margin-top: 6px; }}
+.root small {{ font-size: 16px; font-weight: normal; display: block; margin-top: 6px; }}
 .root-info {{
-    margin-top: 12px;
-    padding-top: 10px;
+    margin-top: 10px;
+    padding-top: 8px;
     border-top: 1px solid rgba(255,255,255,0.3);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     line-height: 1.5;
     text-align: left;
@@ -161,67 +162,97 @@ body {{
 .branches {{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 28px;
 }}
 .branch {{
     display: flex;
     align-items: flex-start;
-    gap: 50px;
+    gap: 30px;
 }}
 .cat-node {{
     background: #ffc107;
     color: #333;
-    padding: 16px 26px;
+    padding: 14px 20px;
     border-radius: 12px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: bold;
     white-space: nowrap;
     box-shadow: 0 4px 12px rgba(0,0,0,0.14);
     flex-shrink: 0;
-    margin-top: 10px;
+    margin-top: 8px;
 }}
 .word-groups {{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 12px;
 }}
 .word-groups.dense {{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 10px;
+    align-items: start;
+    padding-left: 20px;
+}}
+.word-groups.dense-4 {{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: start;
+    padding-left: 20px;
+}}
+.word-groups.dense-5 {{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    align-items: start;
+    padding-left: 20px;
 }}
 .word-group {{
     display: flex;
     align-items: flex-start;
-    gap: 36px;
+    gap: 24px;
 }}
-.word-groups.dense .word-group {{
+.word-groups.dense .word-group,
+.word-groups.dense-4 .word-group,
+.word-groups.dense-5 .word-group {{
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
 }}
 .word-card {{
     background: #fff3cd;
     color: #333;
-    padding: 14px 18px;
-    border-radius: 12px;
-    font-size: 14px;
-    line-height: 1.7;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 1.6;
     border: 1px solid #ffe082;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    min-width: 200px;
-    max-width: 280px;
+    min-width: 170px;
+    max-width: 240px;
+}}
+.word-groups.dense .word-card,
+.word-groups.dense-4 .word-card,
+.word-groups.dense-5 .word-card {{
+    width: 100%;
+    max-width: none;
 }}
 .split-card {{
     background: #b3e5fc;
     color: #01579b;
-    padding: 12px 16px;
-    border-radius: 12px;
-    font-size: 13px;
-    line-height: 1.6;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 1.5;
     border: 1px solid #81d4fa;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    min-width: 180px;
+    min-width: 170px;
     max-width: 240px;
+}}
+.word-groups.dense .split-card,
+.word-groups.dense-4 .split-card,
+.word-groups.dense-5 .split-card {{
+    width: 100%;
+    max-width: none;
 }}
 svg.lines {{
     position: absolute;
@@ -243,11 +274,18 @@ svg.lines {{
 <div class="branches">'''
 
     for i, cat in enumerate(categories):
-        is_dense = len(cat["words"]) > 15
-        dense_cls = ' dense' if is_dense else ''
+        word_count = len(cat["words"])
+        if word_count > 40:
+            dense_cls = ' dense-5'
+        elif word_count > 24:
+            dense_cls = ' dense-4'
+        elif word_count > 15:
+            dense_cls = ' dense'
+        else:
+            dense_cls = ''
         html += f'<div class="branch" id="branch-{i}">\n'
         html += f'<div class="cat-node" id="cat-{i}">{cat["title"]}</div>\n'
-        html += f'<div class="word-groups{dense_cls}">\n'
+        html += f'<div class="word-groups{dense_cls}" id="wgs-{i}">\n'
         for j, w in enumerate(cat["words"]):
             html += f'<div class="word-group" id="wg-{i}-{j}">\n'
             html += f'<div class="word-card" id="word-{i}-{j}">{fmt_word(w["text"])}</div>\n'
@@ -272,8 +310,32 @@ function getBox(el, container) {
         cy: er.top - cr.top + er.height / 2
     };
 }
+function drawLine(x1, y1, x2, y2, color, width) {
+    const p = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    p.setAttribute("x1", x1);
+    p.setAttribute("y1", y1);
+    p.setAttribute("x2", x2);
+    p.setAttribute("y2", y2);
+    p.setAttribute("stroke", color);
+    p.setAttribute("stroke-width", width);
+    p.setAttribute("fill", "none");
+    p.setAttribute("stroke-linecap", "round");
+    return p;
+}
 function drawPath(x1, y1, x2, y2, color, width) {
     const mx = (x1 + x2) / 2;
+    const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    p.setAttribute("d", `M ${x1} ${y1} L ${mx} ${y1} L ${mx} ${y2} L ${x2} ${y2}`);
+    p.setAttribute("stroke", color);
+    p.setAttribute("stroke-width", width);
+    p.setAttribute("fill", "none");
+    p.setAttribute("stroke-linejoin", "round");
+    p.setAttribute("stroke-linecap", "round");
+    return p;
+}
+function drawPathFixed(x1, y1, x2, y2, color, width) {
+    // 固定折点：在起点右侧 40px 处（确保落在 gap/padding 空白区，不戳进卡片）
+    const mx = x1 + 40;
     const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
     p.setAttribute("d", `M ${x1} ${y1} L ${mx} ${y1} L ${mx} ${y2} L ${x2} ${y2}`);
     p.setAttribute("stroke", color);
@@ -297,15 +359,38 @@ window.onload = function() {
         const cc = getBox(cat, page);
         svg.appendChild(drawPath(rc.right, rc.cy, cc.left, cc.cy, "#2196f3", 3));
 
-        branch.querySelectorAll(".word-card").forEach(function(wc) {
-            const wb = getBox(wc, page);
-            svg.appendChild(drawPath(cc.right, cc.cy, wb.left, wb.cy, "#64b5f6", 2));
+        const wgs = branch.querySelector(".word-groups");
+        const isDense = wgs.classList.contains("dense") || wgs.classList.contains("dense-4") || wgs.classList.contains("dense-5");
 
+        if (isDense) {
+            // dense 模式：每个 word-card 独立 Manhattan 折线
+            // 折点固定在分类节点右侧 40px，确保垂直段落在 gap/padding 空白区
+            branch.querySelectorAll(".word-card").forEach(function(wc) {
+                const wb = getBox(wc, page);
+                svg.appendChild(drawPathFixed(cc.right, cc.cy, wb.left, wb.cy, "#64b5f6", 2));
+            });
+        } else {
+            // 非 dense：分类节点逐个连到每个 word-card
+            branch.querySelectorAll(".word-card").forEach(function(wc) {
+                const wb = getBox(wc, page);
+                svg.appendChild(drawPath(cc.right, cc.cy, wb.left, wb.cy, "#64b5f6", 2));
+            });
+        }
+
+        // 单词卡片 → 拆分卡片
+        branch.querySelectorAll(".word-card").forEach(function(wc) {
             const group = wc.parentElement;
             const split = group.querySelector(".split-card");
             if (split) {
+                const wb = getBox(wc, page);
                 const sb = getBox(split, page);
-                svg.appendChild(drawPath(wb.right, wb.cy, sb.left, sb.cy, "#4fc3f7", 2));
+                if (isDense) {
+                    // dense 模式：上下排列，强制垂直连线
+                    svg.appendChild(drawLine(wb.cx, wb.bottom, wb.cx, sb.top, "#4fc3f7", 2));
+                } else {
+                    // 非 dense：左右排列，横向连线
+                    svg.appendChild(drawLine(wb.right, wb.cy, sb.left, sb.cy, "#4fc3f7", 2));
+                }
             }
         });
     });

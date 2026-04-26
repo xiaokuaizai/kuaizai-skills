@@ -13,6 +13,9 @@ async (page) => {
   const HTML_PATH = 'file:///G:/draw_long/单词划分/逻辑式组成/output/前缀_re-思维导图-v2.html';
   const PDF_PATH  = 'G:/draw_long/单词划分/逻辑式组成/output/前缀_re-思维导图-v2.pdf';
 
+  // 设置大视口，避免 dense 模式下 grid 列宽被挤压导致布局错乱
+  await page.setViewportSize({ width: 3000, height: 2000 });
+
   await page.goto(HTML_PATH, { waitUntil: 'networkidle' });
 
   // 等待 JS 画线完成

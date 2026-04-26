@@ -233,6 +233,46 @@ font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
 
 ---
 
+### 坑 11：dense 多列布局下折线垂直段戳穿左侧卡片
+
+**现象**：非 dense 单列模式下，`drawPath` 取中点作为 Manhattan 折点效果正常；但在 dense 多列网格下，右侧列的折点会落在第一列卡片区域内，导致垂直段直接戳穿左侧单词卡片。
+
+**解决**：
+1. 增加 `drawPathFixed(x1, y1, x2, y2)` 函数，折点固定为 `x1 + 40`（起点右侧 40px），而非中点
+2. 该 x 坐标落在分类节点与单词区之间的 `gap` + `padding-left` 空白区，确保垂直段不会进入任何卡片
+3. dense 模式下每个 `word-card` 独立使用 `drawPathFixed` 画折线，保持和非 dense 模式一致的"分类节点→垂直向下→卡片左侧"视觉风格
+
+```javascript
+function drawPathFixed(x1, y1, x2, y2, color, width) {
+    const mx = x1 + 40; // 固定折点，不取中点
+    const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    p.setAttribute("d", `M ${x1} ${y1} L ${mx} ${y1} L ${mx} ${y2} L ${x2} ${y2}`);
+    // ... stroke 等属性
+    return p;
+}
+
+// dense 模式下使用
+document.querySelectorAll(".word-card").forEach(function(wc) {
+    const wb = getBox(wc, page);
+    svg.appendChild(drawPathFixed(cc.right, cc.cy, wb.left, wb.cy, "#64b5f6", 2));
+});
+```
+
+---
+
+### 坑 12：viewport 过窄导致 grid 列宽被挤压
+
+**现象**：默认 viewport（通常 800~1280px）下，dense 模式的 `grid-template-columns: repeat(5, 1fr)` 列宽被压缩，卡片内容大量换行，布局严重变形，连带导致 SVG 连线位置错乱。
+
+**解决**：在 `run-code` 中 `page.goto` **之前**设置大视口，确保浏览器有足够宽度计算 grid 布局：
+
+```javascript
+await page.setViewportSize({ width: 3000, height: 2000 });
+await page.goto(HTML_PATH, { waitUntil: 'networkidle' });
+```
+
+---
+
 ## 节点配色规范（参考图风格）
 
 | 节点类型 | 背景色 | 文字色 | 用途 |
@@ -250,6 +290,8 @@ font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
 - **PDF 文字模糊**：检查 `printBackground: true` 是否开启；截图测试时用 `page.setViewportSize({width:1920, height:1080})`
 - **内容被截断**：检查是否使用了动态尺寸（坑 4）
 - **连线缺失**：检查 `window.onload` 是否触发；检查 SVG 容器尺寸
+- **连线戳穿卡片（dense 模式）**：检查是否使用了 `drawPathFixed` 替代 `drawPath`（坑 11）
+- **grid 布局错乱、列宽不对**：检查是否设置了 `page.setViewportSize({width: 3000, height: 2000})`（坑 12）
 - **第五类单词太密**：调大 `grid-template-columns: repeat(4, 1fr)` 或减小 `.word-card` 的 `font-size`
 - **中文字显示为方框**：添加 `"Microsoft YaHei"` 字体回退
 
