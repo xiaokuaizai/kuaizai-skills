@@ -328,7 +328,7 @@ body {{
 }}
 .page {{
     position: relative;
-    display: inline-block;
+    display: block;
     padding-right: 40px;
 }}
 .container {{
@@ -338,6 +338,7 @@ body {{
     position: relative;
     z-index: 1;
     padding-bottom: 24px;
+    min-height: 100vh;
 }}
 /* 根节点 */
 .root {{
@@ -429,10 +430,44 @@ body {{
     display: flex;
     opacity: 1;
 }}
+/* 多列布局（根据单词数量自动分栏） */
+.word-groups.col-2,
+.word-groups.col-3,
+.word-groups.col-4 {{
+    display: none;
+    grid-auto-flow: row;
+}}
+.word-groups.col-2.expanded {{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    opacity: 1;
+}}
+.word-groups.col-3.expanded {{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    opacity: 1;
+}}
+.word-groups.col-4.expanded {{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    opacity: 1;
+}}
 .word-group {{
     display: flex;
     align-items: flex-start;
     gap: 14px;
+}}
+.word-groups.col-2 .word-group,
+.word-groups.col-3 .word-group,
+.word-groups.col-4 .word-group {{
+    gap: 4px;
+    flex-direction: column;
+}}
+.word-groups.col-2 .word-card,
+.word-groups.col-3 .word-card,
+.word-groups.col-4 .word-card {{
+    max-width: none;
+    width: 100%;
 }}
 /* 单词卡片 */
 .word-card {{
@@ -488,7 +523,16 @@ svg.lines {{
         color = cat_colors[i]
         html += f'<div class="branch" id="branch-{i}" data-cat-idx="{i}">\n'
         html += f'<div class="cat-node collapsed" id="cat-{i}" style="background:{color};color:#111;" onclick="toggleBranch({i})">{cat["title"]}</div>\n'
-        html += f'<div class="word-groups" id="wgs-{i}" style="display:none;">\n'
+        wc = len(cat["words"])
+        if wc > 60:
+            col_cls = ' col-4'
+        elif wc > 20:
+            col_cls = ' col-3'
+        elif wc > 8:
+            col_cls = ' col-2'
+        else:
+            col_cls = ''
+        html += f'<div class="word-groups{col_cls}" id="wgs-{i}" style="display:none;">\n'
         for j, w in enumerate(cat["words"]):
             html += f'<div class="word-group" id="wg-{i}-{j}">\n'
             split_html = f'<div class="split-inline">{w["split"]}</div>' if w["split"] else ""
@@ -503,7 +547,7 @@ svg.lines {{
 // 贝塞尔曲线绘制（控制点分别在起点右侧和终点左侧，形成平滑 S 形弧线）
 function drawBezier(x1, y1, x2, y2, color, width) {
     const dx = x2 - x1;
-    const offset = Math.min(40, Math.abs(dx) * 0.4);
+    const offset = Math.min(80, Math.abs(dx) * 0.5);
     const c1x = x1 + offset;
     const c1y = y1;
     const c2x = x2 - offset;
@@ -534,20 +578,17 @@ function getBox(el, container) {
 const page = document.getElementById("page");
 const svg = document.getElementById("svg");
 const root = document.getElementById("root");
-const rc = getBox(root, page);
-
-// 存储所有连线以便动态更新
-const lines = [];
 
 function clearLines() {
     while (svg.firstChild) svg.removeChild(svg.firstChild);
-    lines.length = 0;
 }
 
 function redrawAll() {
     clearLines();
     svg.setAttribute("width", page.scrollWidth);
     svg.setAttribute("height", page.scrollHeight);
+
+    const rc = getBox(root, page);
 
     document.querySelectorAll(".branch").forEach(function(branch) {
         const idx = parseInt(branch.getAttribute("data-cat-idx"));
@@ -560,7 +601,7 @@ function redrawAll() {
 
         const wgs = branch.querySelector(".word-groups");
         if (wgs.classList.contains("expanded")) {
-            // 分类 → 单词（仅在展开时显示）
+            // 给每个单词卡片画独立连线
             branch.querySelectorAll(".word-card").forEach(function(wc) {
                 const wb = getBox(wc, page);
                 svg.appendChild(drawBezier(cc.right, cc.cy, wb.left, wb.cy, "#64b5f6", 1.5));
@@ -574,8 +615,9 @@ function toggleBranch(idx) {
     const wgs = document.getElementById("wgs-" + idx);
     const cat = document.getElementById("cat-" + idx);
     if (wgs.style.display === "none" || !wgs.classList.contains("expanded")) {
-        // 展开：先设置 display:flex 让元素参与布局，下一帧再添加 expanded 触发动画
-        wgs.style.display = "flex";
+        // 展开：先设置 display 让元素参与布局，下一帧再添加 expanded 触发动画
+        const isGrid = wgs.classList.contains("col-2") || wgs.classList.contains("col-3") || wgs.classList.contains("col-4");
+        wgs.style.display = isGrid ? "grid" : "flex";
         cat.classList.remove("collapsed");
         cat.classList.add("expanded");
         requestAnimationFrame(function() {
