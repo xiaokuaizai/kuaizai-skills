@@ -8,7 +8,8 @@
 kuaizai-skills/
 ├── README.md
 └── skills/
-    └── md-mindmap-to-pdf/      # Markdown 树状思维导图生成器
+    ├── md-mindmap-to-pdf/           # 静态树状思维导图 PDF 生成器
+    └── md-mindmap-to-pdf-mobile/    # Notebook 风格交互式思维导图
 ```
 
 ## Skills 列表
@@ -25,3 +26,17 @@ kuaizai-skills/
 - 通过 Playwright 动态测量页面尺寸后导出 PDF，避免内容裁切
 
 **文件位置：** `skills/md-mindmap-to-pdf/`
+
+### md-mindmap-to-pdf-mobile
+
+将 Markdown 词根/前缀学习页转换为 **Notebook 风格交互式思维导图 HTML**，适合在手机浏览器查看。
+
+**核心功能：**
+- 白色背景 + 圆角卡片设计，语义化配色（动作/状态/抽象/空间/情感/时间）
+- 根节点固定在左侧垂直居中，分类节点以彩色胶囊标签向右展开
+- 点击分类节点可展开/折叠单词卡片，带 opacity 过渡动画
+- 单词卡片与节点之间使用 SVG 贝塞尔曲线平滑连线
+- 根据单词数量自动分栏：>20 词三列、>8 词两列、≤8 词单列
+- 完整保留音标、释义、词根拆分等学习信息
+
+**文件位置：** `skills/md-mindmap-to-pdf-mobile/`
