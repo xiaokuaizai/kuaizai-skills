@@ -1,0 +1,12 @@
+{
+  "name": "word-label-toolkit",
+  "version": "1.0.0",
+  "description": "从 Markdown 提示词批量提取 Labels，生成 HTML 并截图成 PNG 参考图",
+  "scripts": {
+    "generate": "node generate-labels-only.js",
+    "screenshot": "node batch-screenshot.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
