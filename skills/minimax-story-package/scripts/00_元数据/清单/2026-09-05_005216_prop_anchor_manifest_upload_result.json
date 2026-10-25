@@ -1,0 +1,45 @@
+{
+  "manifest_type": "upload_result",
+  "uploaded_at": "2026-09-05T00:52:22.683586+08:00",
+  "dry_run": false,
+  "project": "英语项目",
+  "branch": "支线21",
+  "asset_type": "prop_anchor",
+  "uploaded_count": 3,
+  "failed_count": 0,
+  "results": [
+    {
+      "id": "PROP_21_01_balloon_v1_intact_turnaround.png",
+      "type": "prop_anchor",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\21_状态描写\\物品锚点\\PROP_21_01_balloon_v1_intact_turnaround.png",
+      "oss_key": "lexilearnoss/video_workspace/英语项目/02_参考/支线/支线21/物品锚点/PROP_21_01_balloon_v1_intact_turnaround.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/%E8%8B%B1%E8%AF%AD%E9%A1%B9%E7%9B%AE/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF21/%E7%89%A9%E5%93%81%E9%94%9A%E7%82%B9/PROP_21_01_balloon_v1_intact_turnaround.png",
+      "success": true,
+      "size": 1211333,
+      "message": "上传成功",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "PROP_21_03_trophy_turnaround.png",
+      "type": "prop_anchor",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\21_状态描写\\物品锚点\\PROP_21_03_trophy_turnaround.png",
+      "oss_key": "lexilearnoss/video_workspace/英语项目/02_参考/支线/支线21/物品锚点/PROP_21_03_trophy_turnaround.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/%E8%8B%B1%E8%AF%AD%E9%A1%B9%E7%9B%AE/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF21/%E7%89%A9%E5%93%81%E9%94%9A%E7%82%B9/PROP_21_03_trophy_turnaround.png",
+      "success": true,
+      "size": 1251647,
+      "message": "上传成功",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "PROP_21_04_album_turnaround.png",
+      "type": "prop_anchor",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\21_状态描写\\物品锚点\\PROP_21_04_album_turnaround.png",
+      "oss_key": "lexilearnoss/video_workspace/英语项目/02_参考/支线/支线21/物品锚点/PROP_21_04_album_turnaround.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/%E8%8B%B1%E8%AF%AD%E9%A1%B9%E7%9B%AE/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF21/%E7%89%A9%E5%93%81%E9%94%9A%E7%82%B9/PROP_21_04_album_turnaround.png",
+      "success": true,
+      "size": 1904425,
+      "message": "上传成功",
+      "archived_oss_key": ""
+    }
+  ]
+}

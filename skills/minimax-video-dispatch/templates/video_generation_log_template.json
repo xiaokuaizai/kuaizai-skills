@@ -1,0 +1,37 @@
+{
+  "project": "项目名称",
+  "branch": "支线名称",
+  "platform": "official",
+  "resolution": "2K",
+  "ratio": "9:16",
+  "mode": "r2va",
+  "total_segments": 0,
+  "completed_segments": 0,
+  "failed_segments": 0,
+  "total_cost": 0.0,
+  "currency": "CNY",
+  "batches": [
+    {
+      "batch_index": 1,
+      "segment_ids": ["SEG-01"],
+      "submitted_at": "2026-08-27T10:00:00",
+      "completed_at": "2026-08-27T10:05:00",
+      "estimated_cost": 0.0,
+      "actual_cost": 0.0,
+      "currency": "CNY",
+      "tasks": [
+        {
+          "segment_id": "SEG-01",
+          "task_id": "424010985738629",
+          "status": "succeeded",
+          "content_url": "https://example.com/output.mp4",
+          "local_path": "04_支线产出/产出/支线1/分段视频/SEG-01/SEG-01.mp4",
+          "duration": 5,
+          "resolution": "2K",
+          "ratio": "9:16",
+          "cost": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "manifest_type": "segment_asset_pack",
+  "project": "",
+  "branch": "",
+  "segment": "",
+  "built_at": "",
+  "reference_images": [
+    {
+      "slot": 1,
+      "label": "故事板参考图",
+      "id": "",
+      "public_url": ""
+    },
+    {
+      "slot": 2,
+      "label": "人物拼接参考图",
+      "id": "",
+      "public_url": "",
+      "note": "如需拼接多个人物，先运行 minimax-storyboard/scripts/combine_reference_sheets.py"
+    },
+    {
+      "slot": 3,
+      "label": "场景参考图",
+      "id": "",
+      "public_url": ""
+    },
+    {
+      "slot": 4,
+      "label": "道具/风格参考图",
+      "id": "",
+      "public_url": ""
+    },
+    {
+      "slot": 5,
+      "label": "首帧分镜图",
+      "id": "",
+      "public_url": ""
+    }
+  ],
+  "reference_audios": [],
+  "reference_audio_validation": {
+    "count": 0,
+    "total_duration_seconds": 0,
+    "status": "not_requested",
+    "rules": "最多3段；每段2-15秒；总时长不超过15秒；仅参考音色"
+  }
+}

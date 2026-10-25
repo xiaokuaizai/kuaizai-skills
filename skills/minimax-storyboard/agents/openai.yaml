@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimax H3 分镜"
+  short_description: "按 A-G 阶段生成完整 Minimax H3 分镜生产包"
+  default_prompt: "使用 $minimax-storyboard 按 A-G 阶段处理这份剧本；每阶段汇报并等待确认，完整交付分镜图、HTML 导演总表、故事板参考图、最终提示词和 SEG 资产包。"

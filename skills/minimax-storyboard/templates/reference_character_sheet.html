@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width={{WIDTH}}">
+  <title>{{TITLE}}</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+      background: #f5f5f5;
+      padding: 40px 0;
+    }
+
+    .container {
+      width: {{WIDTH}}px;
+      margin: 0 auto;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .header {
+      padding: 24px 32px;
+      background: #1a1a1a;
+      color: #ffffff;
+    }
+
+    .header h1 { font-size: 24px; font-weight: 600; margin-bottom: 8px; }
+    .header p { font-size: 14px; color: #aaaaaa; }
+
+    .ref-item {
+      display: flex;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .ref-item:last-child { border-bottom: none; }
+
+    .label {
+      width: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+      border-right: 1px solid #e0e0e0;
+      padding: 16px;
+    }
+
+    .label.tone-1 { background: #ffe4e1; }
+    .label.tone-2 { background: #e0f7fa; }
+    .label.tone-3 { background: #f0f4c3; }
+    .label.tone-4 { background: #fff9c4; }
+    .label.tone-5 { background: #f3e5f5; }
+
+    .label-text {
+      font-size: 22px;
+      font-weight: 600;
+      color: #333333;
+      text-align: center;
+      line-height: 1.4;
+      word-break: break-all;
+    }
+
+    .image-wrap {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fafafa;
+    }
+
+    .image-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>{{TITLE}}</h1>
+      <p>{{DESC}}</p>
+    </div>
+    {{ITEMS}}
+  </div>
+</body>
+</html>

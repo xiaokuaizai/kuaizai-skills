@@ -1,0 +1,288 @@
+[
+  {
+    "scene": "CH4-SD-S01",
+    "lines": [
+      {
+        "seq": 1,
+        "id": "ch4_s01_narrator_001",
+        "role": "narrator",
+        "text": "December wind cut across Beijing as Jiang Che stood inside the airport terminal.",
+        "speed": 1.0,
+        "emotion": "calm"
+      },
+      {
+        "seq": 2,
+        "id": "ch4_s01_an_qi_002",
+        "role": "an_qi",
+        "text": "That orange plane is our flight to the south.",
+        "speed": 1.0,
+        "emotion": "steady"
+      },
+      {
+        "seq": 3,
+        "id": "ch4_s01_jiang_che_003",
+        "role": "jiang_che",
+        "text": "It feels unreal. Three months ago, I was still fixing a radio in a garage.",
+        "speed": 1.0,
+        "emotion": "quiet"
+      },
+      {
+        "seq": 4,
+        "id": "ch4_s01_narrator_004",
+        "role": "narrator",
+        "text": "His ticket was already creased in his hand.",
+        "speed": 1.0,
+        "emotion": "observing"
+      },
+      {
+        "seq": 5,
+        "id": "ch4_s01_zhao_haifeng_005",
+        "role": "zhao_haifeng",
+        "text": "High-speed rail experience will not help you on a thirty-hour journey.",
+        "speed": 1.0,
+        "emotion": "dry humor"
+      },
+      {
+        "seq": 6,
+        "id": "ch4_s01_zhao_haifeng_006",
+        "role": "zhao_haifeng",
+        "text": "The Drake Passage is the real test.",
+        "speed": 1.0,
+        "emotion": "warning"
+      },
+      {
+        "seq": 7,
+        "id": "ch4_s01_narrator_007",
+        "role": "narrator",
+        "text": "The runway tilted away as the transport plane climbed into the gray-blue sky.",
+        "speed": 1.0,
+        "emotion": "cinematic"
+      }
+    ]
+  },
+  {
+    "scene": "CH4-SD-S02",
+    "lines": [
+      {
+        "seq": 8,
+        "id": "ch4_s02_jiang_che_008",
+        "role": "jiang_che",
+        "text": "We are stopping in Frankfurt. Everything is going well.",
+        "speed": 1.0,
+        "emotion": "soft"
+      },
+      {
+        "seq": 9,
+        "id": "ch4_s02_an_qi_009",
+        "role": "an_qi",
+        "text": "I checked ten years of climate data. The waves are worst in late December.",
+        "speed": 1.0,
+        "emotion": "focused"
+      },
+      {
+        "seq": 10,
+        "id": "ch4_s02_jiang_che_010",
+        "role": "jiang_che",
+        "text": "Fear is useful when it makes us careful.",
+        "speed": 1.0,
+        "emotion": "steady"
+      },
+      {
+        "seq": 11,
+        "id": "ch4_s02_an_qi_011",
+        "role": "an_qi",
+        "text": "Knowledge is the best life jacket.",
+        "speed": 1.0,
+        "emotion": "resolved"
+      }
+    ]
+  },
+  {
+    "scene": "CH4-SD-S03",
+    "lines": [
+      {
+        "seq": 12,
+        "id": "ch4_s03_narrator_012",
+        "role": "narrator",
+        "text": "Punta Arenas looked like a colorful town at the edge of the world.",
+        "speed": 1.0,
+        "emotion": "wide"
+      },
+      {
+        "seq": 13,
+        "id": "ch4_s03_jiang_che_013",
+        "role": "jiang_che",
+        "text": "When you see the penguin, look at its feet.",
+        "speed": 1.0,
+        "emotion": "hushed"
+      },
+      {
+        "seq": 14,
+        "id": "ch4_s03_an_qi_014",
+        "role": "an_qi",
+        "text": "That sounds less like a note and more like a clue.",
+        "speed": 1.0,
+        "emotion": "curious"
+      }
+    ]
+  },
+  {
+    "scene": "CH4-SD-S04",
+    "lines": [
+      {
+        "seq": 15,
+        "id": "ch4_s04_zhao_haifeng_015",
+        "role": "zhao_haifeng",
+        "text": "Below us is the Drake Passage, more than nine hundred kilometers wide.",
+        "speed": 1.0,
+        "emotion": "steady"
+      },
+      {
+        "seq": 16,
+        "id": "ch4_s04_an_qi_016",
+        "role": "an_qi",
+        "text": "Mountain. Ocean. River. Lake. Island. Glacier.",
+        "speed": 1.0,
+        "emotion": "shaky slow"
+      },
+      {
+        "seq": 17,
+        "id": "ch4_s04_jiang_che_017",
+        "role": "jiang_che",
+        "text": "Hold my hand. Look outside. That white line is ice.",
+        "speed": 1.0,
+        "emotion": "gentle"
+      },
+      {
+        "seq": 18,
+        "id": "ch4_s04_narrator_018",
+        "role": "narrator",
+        "text": "The Antarctic continent appeared through a break in the clouds.",
+        "speed": 1.0,
+        "emotion": "awe"
+      }
+    ]
+  },
+  {
+    "scene": "CH4-SD-S05",
+    "lines": [
+      {
+        "seq": 19,
+        "id": "ch4_s05_lin_xue_019",
+        "role": "lin_xue",
+        "text": "Jiang Che!",
+        "speed": 1.0,
+        "emotion": "emotional"
+      },
+      {
+        "seq": 20,
+        "id": "ch4_s05_jiang_mingyuan_020",
+        "role": "jiang_mingyuan",
+        "text": "You are taller than you looked on the screen.",
+        "speed": 1.0,
+        "emotion": "low warm"
+      },
+      {
+        "seq": 21,
+        "id": "ch4_s05_jiang_che_021",
+        "role": "jiang_che",
+        "text": "Dad. Mom. I am here.",
+        "speed": 1.0,
+        "emotion": "soft"
+      },
+      {
+        "seq": 22,
+        "id": "ch4_s05_narrator_022",
+        "role": "narrator",
+        "text": "At the edge of the world, he was just a seventeen-year-old son again.",
+        "speed": 1.0,
+        "emotion": "warm"
+      },
+      {
+        "seq": 23,
+        "id": "ch4_s05_jiang_mingyuan_023",
+        "role": "jiang_mingyuan",
+        "text": "Before we visit the signal transmitter, there is something you must see.",
+        "speed": 1.0,
+        "emotion": "serious"
+      },
+      {
+        "seq": 24,
+        "id": "ch4_s05_lin_xue_024",
+        "role": "lin_xue",
+        "text": "This key opens our old locker in the underground warehouse.",
+        "speed": 1.0,
+        "emotion": "clear"
+      },
+      {
+        "seq": 25,
+        "id": "ch4_s05_jiang_mingyuan_025",
+        "role": "jiang_mingyuan",
+        "text": "The receiver must decode the signal, take the risk, and believe Antarctica is worth protecting.",
+        "speed": 1.0,
+        "emotion": "solemn"
+      }
+    ]
+  },
+  {
+    "scene": "CH4-SD-S06",
+    "lines": [
+      {
+        "seq": 26,
+        "id": "ch4_s06_narrator_026",
+        "role": "narrator",
+        "text": "Locker B-17 opened with a dull click.",
+        "speed": 1.0,
+        "emotion": "tense"
+      },
+      {
+        "seq": 27,
+        "id": "ch4_s06_lin_xue_letter_027",
+        "role": "lin_xue_letter",
+        "text": "If you are reading this letter, the first stage of Project Antarctic Star has succeeded.",
+        "speed": 1.0,
+        "emotion": "formal"
+      },
+      {
+        "seq": 28,
+        "id": "ch4_s06_lin_xue_letter_028",
+        "role": "lin_xue_letter",
+        "text": "Antarctica is Earth's memory bank and the insurance policy for future life.",
+        "speed": 1.0,
+        "emotion": "formal slow"
+      },
+      {
+        "seq": 29,
+        "id": "ch4_s06_an_qi_029",
+        "role": "an_qi",
+        "text": "Ten years ago. Christmas Eve.",
+        "speed": 1.0,
+        "emotion": "hushed"
+      },
+      {
+        "seq": 30,
+        "id": "ch4_s06_jiang_che_030",
+        "role": "jiang_che",
+        "text": "Mineral enrichment zone?",
+        "speed": 1.0,
+        "emotion": "confused"
+      },
+      {
+        "seq": 31,
+        "id": "ch4_s06_an_qi_031",
+        "role": "an_qi",
+        "text": "Commercial mining is forbidden by the Antarctic Treaty.",
+        "speed": 1.0,
+        "emotion": "alert"
+      },
+      {
+        "seq": 32,
+        "id": "ch4_s06_narrator_032",
+        "role": "narrator",
+        "text": "From the moment the locker opened, the plan entered its second stage.",
+        "speed": 1.0,
+        "emotion": "hook"
+      }
+    ]
+  }
+]

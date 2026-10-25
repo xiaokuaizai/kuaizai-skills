@@ -1,0 +1,199 @@
+{
+  "manifest_type": "upload_result",
+  "uploaded_at": "2026-09-02T01:21:47.216874+08:00",
+  "dry_run": false,
+  "project": "Lexi",
+  "branch": "支线02",
+  "asset_type": "storyboard_ref",
+  "uploaded_count": 17,
+  "failed_count": 0,
+  "results": [
+    {
+      "id": "SEG-01-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-01-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-01-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-01-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 734369,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-01-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-02-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-02-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-02-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-02-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 704993,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-02-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-03-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-03-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-03-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-03-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 745808,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-03-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-04-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-04-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-04-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-04-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 659820,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-04-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-05-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-05-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-05-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-05-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 1144938,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-05-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-06-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-06-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-06-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-06-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 722586,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-06-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-07-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-07-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-07-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-07-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 1042266,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-07-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-08-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-08-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-08-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-08-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 1031473,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-08-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-09-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-09-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-09-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-09-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 700775,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-09-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-10-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-10-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-10-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-10-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 668460,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-10-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-11-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-11-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-11-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-11-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 1014934,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-11-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-12-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-12-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-12-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-12-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 989323,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-12-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-13-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-13-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-13-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-13-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 993872,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-13-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-14-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-14-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-14-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-14-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 1106242,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-14-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-15-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-15-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-15-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-15-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 643514,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-15-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-16-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-16-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-16-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-16-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 663644,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-16-故事板参考图_旧版v1.png"
+    },
+    {
+      "id": "SEG-17-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-17-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-17-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-17-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": true,
+      "size": 671067,
+      "message": "上传成功",
+      "archived_oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/旧版/SEG-17-故事板参考图_旧版v1.png"
+    }
+  ]
+}

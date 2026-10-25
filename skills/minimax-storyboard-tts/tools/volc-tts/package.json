@@ -1,0 +1,14 @@
+{
+  "name": "volc-tts",
+  "version": "1.0.0",
+  "description": "火山引擎TTS语音合成工具",
+  "main": "src/tts_client.js",
+  "scripts": {
+    "samples": "node src/generate_samples.js",
+    "chapter1": "python scripts/generate/generate_chapter1.py"
+  },
+  "dependencies": {
+    "ws": "^8.14.0",
+    "dotenv": "^16.3.1"
+  }
+}

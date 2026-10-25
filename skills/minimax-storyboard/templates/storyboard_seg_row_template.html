@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{EPISODE_TITLE}}｜导演分镜总表（SEG 行版）</title>
+  <style>
+    :root {
+      --paper: #f8f4ec;
+      --ink: #202020;
+      --muted: #666;
+      --line: #d7ccbd;
+      --gold: #b8872f;
+      --blue: #426d9b;
+      --red: #a85750;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e7e1d7;
+      color: var(--ink);
+      font-family: "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+    }
+    .shell {
+      width: min(98vw, 2400px);
+      max-width: none;
+      margin: 0 auto;
+      padding: 28px;
+    }
+
+    /* ===== 顶部信息区 ===== */
+    .hero {
+      background: #fffaf2;
+      border: 1px solid var(--line);
+      padding: 26px 30px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 34px;
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px 18px;
+      color: #51493f;
+      font-size: 15px;
+    }
+    .stats {
+      margin-top: 12px;
+      font-weight: 700;
+      color: #7a4c20;
+    }
+
+    /* ===== 每一行：一个 SEG ===== */
+    .seg-row {
+      display: grid;
+      /* 左 60% | 中 25% | 右 15% */
+      grid-template-columns: minmax(760px, 1.35fr) minmax(460px, .9fr) minmax(360px, 430px);
+      /* 标题栏固定 76px，内容区填满剩余 */
+      grid-template-rows: 76px 1fr;
+      column-gap: 18px;
+      row-gap: 0;
+      align-items: start;
+      min-height: 95vh;
+      background: #fffdf8;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin: 18px 0;
+      break-inside: avoid;
+    }
+    .seg-head {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 12px;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0;         /* 横线直接落在标题栏底部，内容完全贴线 */
+      height: 76px;
+      min-height: 76px;
+    }
+    .seg-id {
+      font-size: 34px;
+      font-weight: 900;
+      color: #7a4c20;
+    }
+    .seg-title {
+      font-size: 28px;
+      font-weight: 900;
+      color: #51493f;
+    }
+    .badge {
+      background: #f0e7d8;
+      border: 1px solid #dbcbb5;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-weight: 700;
+      color: #5e5144;
+      white-space: nowrap;
+    }
+
+    /* ===== 左栏：段级拼接图 / 单镜头图网格 ===== */
+    .sketch-window {
+      border: 1px solid #c9c1b8;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #eee;
+    }
+    .sketch-window img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .caption {
+      font-size: 14px;           /* 说明文字加大 */
+      font-weight: 700;          /* 说明文字加粗 */
+      color: #555;               /* 保留灰度但加深一点 */
+      margin-top: 8px;
+    }
+
+    /* 单镜头图网格：编号在图外，不压图 */
+    .panel-grid {
+      display: grid;
+      gap: 12px;
+      /* 默认 1 行 N 列；agent 根据镜头数量改 grid-template-columns / rows */
+    }
+    .panel-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+    .panel-img {
+      width: 100%;
+      max-height: 36vh;          /* 限制单图高度，2 行布局也能放进固定行高 */
+      aspect-ratio: 9 / 16;
+      object-fit: contain;
+      background: #e9e5dd;
+      border: 1px solid #c9c1b8;
+      border-radius: 6px;
+      display: block;
+    }
+    .panel-label {
+      font-size: 18px;
+      font-weight: 800;
+      color: #7a4c20;
+      background: #f0e7d8;
+      border: 1px solid #dbcbb5;
+      border-radius: 999px;
+      padding: 4px 12px;
+      white-space: nowrap;
+    }
+
+    /* 左栏内容区：顶部对齐，紧贴标题横线 */
+    .sketch-area {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+      min-height: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    /* ===== 中栏：SEG 信息 + 镜头列表 + 锚点 + 台词 ===== */
+    .notes {
+      display: grid;
+      gap: 9px;
+      align-content: start;
+      font-size: 14px;
+      height: 100%;
+      overflow-y: auto;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .field {
+      border-bottom: 1px dashed #ded4c7;
+      padding-bottom: 8px;
+    }
+    .label {
+      font-size: 19px;
+      color: #8a6a35;
+      font-weight: 900;
+      margin-bottom: 3px;
+    }
+    .value {
+      font-size: 16px;           /* 中栏正文加大 */
+      line-height: 1.55;
+      color: #333;
+    }
+    .shot-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 4px 0 8px;
+      font-size: 15px;           /* 镜头列表表格文字加大 */
+    }
+    .shot-table th,
+    .shot-table td {
+      border: 1px solid #d7ccbd;
+      padding: 5px 6px;
+      text-align: left;
+      vertical-align: top;
+    }
+    .shot-table th {
+      background: #f0e7d8;
+      font-weight: 700;
+      color: #5e5144;
+    }
+    .dialogue {
+      font-size: 16px;           /* 台词/旁白加大 */
+      line-height: 1.65;
+      background: #fbf7ef;
+      border-left: 4px solid #d9a24e;
+      padding: 10px 12px;
+      border-radius: 6px;
+      color: #333;
+    }
+    .sound {
+      color: #6a6a6a;
+      font-size: 15px;           /* 环境声说明加大 */
+    }
+
+    /* ===== 右栏：SVG 站位图 ===== */
+    .blocking {
+      background: #fbfaf7;
+      border: 1px solid #c9c1b8;
+      border-radius: 8px;
+      padding: 0 10px 10px 10px; /* 顶部无内边距，右栏内容完全贴横线 */
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow: hidden;
+      margin-top: 0;
+    }
+    .blocking-svg {
+      max-width: 100%;
+      max-height: calc(100% - 220px);
+      width: auto;
+      height: auto;
+      display: block;
+    }
+    .blocking-divider {
+      width: 100%;
+      height: 1px;
+      background: var(--line);
+      margin: 24px 0 12px;       /* 横线往下调整，给上方图注留出足够空间 */
+      flex-shrink: 0;
+    }
+    .blocking-sound {
+      width: 100%;
+      flex-shrink: 0;
+    }
+    .blocking-sound .label {
+      font-size: 19px;
+      color: #8a6a35;
+      font-weight: 900;
+      margin-bottom: 6px;
+    }
+    .blocking-sound .sound {
+      font-size: 18px;           /* 右栏环境声内容字号加大 */
+      line-height: 1.55;
+      color: #6a6a6a;
+    }
+    .svg-name { font-size: 15px; font-weight: 800; fill: #222; }
+    .svg-muted { font-size: 13px; font-weight: 700; fill: #6d655d; }
+    .svg-cam { font-size: 15px; font-weight: 900; fill: #426d9b; }
+
+    /* ===== 底部汇总 ===== */
+    .summary {
+      background: #fffaf2;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin-top: 22px;
+    }
+    .summary h2 {
+      margin: 0 0 12px;
+      color: #7a4c20;
+    }
+    .summary table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+    .summary th,
+    .summary td {
+      border: 1px solid var(--line);
+      padding: 9px;
+      text-align: left;
+    }
+    .summary th {
+      background: #f0e7d8;
+    }
+
+    /* ===== 响应式与打印 ===== */
+    @media (max-width: 1500px) {
+      .seg-row { grid-template-columns: 1fr 1fr; }
+      .blocking { grid-column: 1 / -1; }
+      .meta { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 980px) {
+      .seg-row { grid-template-columns: 1fr; }
+      .meta { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body { background: white; }
+      .shell { max-width: none; width: 100%; padding: 0; }
+      .seg-row { page-break-inside: avoid; }
+    }
+
+    /* ===== 给 agent 的占位提示 ===== */
+    .agent-note {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- SVG 箭头标记定义，全局复用 -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+        <path d="M2,2 L10,6 L2,10 Z" fill="#426d9b"/>
+      </marker>
+      <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+        <path d="M2,2 L10,6 L2,10 Z" fill="#bd6b61"/>
+      </marker>
+      <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+        <path d="M0,0 L10,5 L0,10 Z" fill="#22c55e"/>
+      </marker>
+    </defs>
+  </svg>
+
+  <div class="shell">
+    <!-- ===== 顶部信息区：agent 替换 {{}} 内容 ===== -->
+    <section class="hero">
+      <h1>{{EPISODE_TITLE}}｜导演分镜总表</h1>
+      <div class="meta">
+        <div>本集共 {{TOTAL_SHOTS}} 个镜头，完整时长约为 {{TOTAL_DURATION}}</div>
+        <div>统一画幅：{{ASPECT_RATIO}}</div>
+        <div>字幕限制：视频中禁止出现任何字幕、标题字、说明字、屏幕文字叠加</div>
+        <div>音频限制：禁止背景音乐，仅保留角色语音、环境声、动作音效</div>
+        <div>生成模型：Minimax H3</div>
+        <div>出场人物：{{CHARACTER_LIST}}</div>
+      </div>
+      <div class="stats">SEG 数：{{SEG_COUNT}}　镜头数：{{TOTAL_SHOTS}}　表内合计时长：{{TOTAL_SECONDS}} 秒</div>
+    </section>
+
+    <!--
+      ============================================================
+      使用说明（给 agent）：
+      1. 每行一个 SEG，复制 `examples/storyboard_seg_examples.html` 内的 <article class="seg-row"> 区块并替换占位符；生产模板不内嵌示例，避免示例被误识别为真实 SEG。
+      2. 左栏：默认使用 .panel-grid 展示每个单镜头图 + 镜头号标签（编号在图外，不压图）。
+         - 1 镜：grid-template-columns: 1fr; max-width: 60%; margin: 0 auto;
+         - 2 镜：1 行 2 列，grid-template-columns: repeat(2, 1fr);
+         - 3 镜：2×2，grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr); 第 4 格留白（visibility: hidden）;
+         - 4 镜：2×2，grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);
+         - 5-6 镜：2×3，grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); 5 镜时末格留白（visibility: hidden）;
+         - 7-8 镜：2×4，grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr);
+         - 9+ 镜：按 3 行或 4 列拆分，或拆分为多个 SEG。
+         - 如仍需单张 composite，可改回 .sketch-window 内 <img src="segments/SEG-XX_composite.png">。
+      3. 中栏：填写 seg-id、seg-title（含场景/风格/主要内容）、shot-table、首帧锚点、尾帧锚点、台词/旁白。转场信息只写入 Markdown SEG 表的 Continuity Handoff，不要追加到 HTML 尾帧锚点。
+      4. 右栏：根据 SEG 机位与人物调度绘制 SVG 站位图，包含 CAM、FOV 扇形、人物位置、运动方向；SVG 下方用横线分隔后填写环境声（含环境描述与动作音效）。
+      ============================================================
+    -->
+
+    <!-- 示例只放在 template 中，避免被浏览器和截图脚本误当成正式 SEG。 -->
+    <!-- 示例片段已移至 examples/storyboard_seg_examples.html；生产模板只保留复制说明。 -->
+
+    <!-- ===== 底部汇总 ===== -->
+    <section class="summary">
+      <h2>连续性 / 生成注意事项</h2>
+      <table>
+        <tr><th>项</th><th>处理建议</th></tr>
+        <tr><td>音频</td><td>禁止背景音乐；仅保留角色语音、环境声、动作音效。</td></tr>
+        <tr><td>字幕</td><td>全片禁止字幕、标题字、说明字、屏幕文字叠加。草图与页面也避免把对白塞进画面区。</td></tr>
+        <tr><td>连续性</td><td>{{填写本集关键连续性要求，例如：某道具状态延续、人物位置变化、转场逻辑等。}}</td></tr>
+        <tr><td>避免项</td><td>{{填写 Minimax H3 特殊避免项，例如：不要交换人物站位、不要改变服装发型、不要增加额外人物等。}}</td></tr>
+      </table>
+    </section>
+  </div>
+</body>
+</html>

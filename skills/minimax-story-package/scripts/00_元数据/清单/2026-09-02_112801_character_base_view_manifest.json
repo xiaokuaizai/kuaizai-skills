@@ -1,0 +1,109 @@
+{
+  "manifest_type": "asset_manifest",
+  "generated_at": "2026-09-02T11:28:01.728630+08:00",
+  "project": "Lexi",
+  "branch": "支线02",
+  "asset_type": "character_base_view",
+  "assets": [
+    {
+      "id": "安琪_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪_基础三视图.png",
+      "filename": "安琪_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪二叔_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪二叔_基础三视图.png",
+      "filename": "安琪二叔_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪二叔_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E4%BA%8C%E5%8F%94_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪父亲_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪父亲_基础三视图.png",
+      "filename": "安琪父亲_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪父亲_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E7%88%B6%E4%BA%B2_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪哥哥_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪哥哥_基础三视图.png",
+      "filename": "安琪哥哥_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪哥哥_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E5%93%A5%E5%93%A5_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪舅妈_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪舅妈_基础三视图.png",
+      "filename": "安琪舅妈_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪舅妈_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E8%88%85%E5%A6%88_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪母亲_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪母亲_基础三视图.png",
+      "filename": "安琪母亲_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪母亲_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E6%AF%8D%E4%BA%B2_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪奶奶_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪奶奶_基础三视图.png",
+      "filename": "安琪奶奶_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪奶奶_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E5%A5%B6%E5%A5%B6_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪叔叔_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪叔叔_基础三视图.png",
+      "filename": "安琪叔叔_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪叔叔_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E5%8F%94%E5%8F%94_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "安琪爷爷_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\安琪爷爷_基础三视图.png",
+      "filename": "安琪爷爷_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/安琪爷爷_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%AE%89%E7%90%AA%E7%88%B7%E7%88%B7_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    },
+    {
+      "id": "张阿姨_基础三视图.png",
+      "type": "character_base_view",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\资产\\02_春节团圆\\人物锚点\\人物三视图\\张阿姨_基础三视图.png",
+      "filename": "张阿姨_基础三视图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/人物锚点/人物三视图/张阿姨_基础三视图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E4%BA%BA%E7%89%A9%E9%94%9A%E7%82%B9/%E4%BA%BA%E7%89%A9%E4%B8%89%E8%A7%86%E5%9B%BE/%E5%BC%A0%E9%98%BF%E5%A7%A8_%E5%9F%BA%E7%A1%80%E4%B8%89%E8%A7%86%E5%9B%BE.png",
+      "uploaded": false,
+      "uploaded_at": null
+    }
+  ]
+}

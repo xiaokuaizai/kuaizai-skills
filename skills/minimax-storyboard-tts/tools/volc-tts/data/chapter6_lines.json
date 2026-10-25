@@ -1,0 +1,384 @@
+[
+  {
+    "scene": "CH6-SD-S01",
+    "lines": [
+      {
+        "seq": 1,
+        "id": "ch6_s01_narrator_001",
+        "role": "narrator",
+        "text": "In March, Beijing was still cold, and Jiang Che walked toward a different battlefield.",
+        "text_zh": "三月，北京仍然寒冷，江彻走向了另一种战场。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 2,
+        "id": "ch6_s01_an_qi_002",
+        "role": "an_qi",
+        "text": "Nervous?",
+        "text_zh": "紧张吗？",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 3,
+        "id": "ch6_s01_jiang_che_003",
+        "role": "jiang_che",
+        "text": "A little. I have never spoken in front of so many people.",
+        "text_zh": "有点。我从没在这么多人面前演讲过。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 4,
+        "id": "ch6_s01_an_qi_004",
+        "role": "an_qi",
+        "text": "This time, it is not technology. This time, it is the truth.",
+        "text_zh": "这次不是技术，这次是真相。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S02",
+    "lines": [
+      {
+        "seq": 5,
+        "id": "ch6_s02_narrator_005",
+        "role": "narrator",
+        "text": "He walked onto the stage with a piece of ice in his hand.",
+        "text_zh": "他手里握着一块冰，走上了舞台。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 6,
+        "id": "ch6_s02_jiang_che_006",
+        "role": "jiang_che",
+        "text": "This ice core is from Antarctica. Its bubbles hold air from five hundred years ago.",
+        "text_zh": "这块冰芯来自南极。它的气泡封存着五百年前的空气。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 7,
+        "id": "ch6_s02_jiang_che_007",
+        "role": "jiang_che",
+        "text": "Antarctica is not just land. It is Earth's climate archive.",
+        "text_zh": "南极不只是一片土地。它是地球的气候档案馆。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 8,
+        "id": "ch6_s02_narrator_008",
+        "role": "narrator",
+        "text": "The data on the screen told a story of melting glaciers and shrinking habitats.",
+        "text_zh": "屏幕上的数据讲述着冰川消融和栖息地缩小的故事。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S03",
+    "lines": [
+      {
+        "seq": 9,
+        "id": "ch6_s03_jiang_che_009",
+        "role": "jiang_che",
+        "text": "My father drew this map. Each X is a monitoring point. The red dot is different.",
+        "text_zh": "这张地图是我父亲画的。每个 X 是一个监测点。这个红点不一样。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 10,
+        "id": "ch6_s03_jiang_che_010",
+        "role": "jiang_che",
+        "text": "The Antarctic Treaty forbids commercial mining, but someone wanted to break that rule.",
+        "text_zh": "《南极条约》禁止商业开采，但有人想打破这条规则。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 11,
+        "id": "ch6_s03_narrator_011",
+        "role": "narrator",
+        "text": "He pressed play. A voice from the recording filled the hall.",
+        "text_zh": "他按下播放键。录音的声音充满了整个礼堂。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 12,
+        "id": "ch6_s03_chen_recording_012",
+        "role": "chen_recording",
+        "text": "The treaty is paper. Find the right mining technology, and no one will stop us.",
+        "text_zh": "条约只是一张纸。找到合适的开采技术，就没人能阻止我们。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 13,
+        "id": "ch6_s03_narrator_013",
+        "role": "narrator",
+        "text": "The audience gasped. Cameras flashed like stars.",
+        "text_zh": "观众倒吸一口凉气。相机闪光灯像星星一样闪烁。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S04",
+    "lines": [
+      {
+        "seq": 14,
+        "id": "ch6_s04_jiang_che_014",
+        "role": "jiang_che",
+        "text": "If we destroy Antarctica for profit, we lose more than ice. We lose hope.",
+        "text_zh": "如果我们为了利益破坏南极，失去的不只是冰，而是希望。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 15,
+        "id": "ch6_s04_jiang_che_015",
+        "role": "jiang_che",
+        "text": "Even in extreme cold, life finds a way. We should protect that life.",
+        "text_zh": "即使在极寒中，生命也能找到出路。我们应该保护这样的生命。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 16,
+        "id": "ch6_s04_narrator_016",
+        "role": "narrator",
+        "text": "The applause began as a few scattered beats, then became a roaring tide.",
+        "text_zh": "掌声起初是零星的几下，然后变成了轰鸣的潮水。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S05",
+    "lines": [
+      {
+        "seq": 17,
+        "id": "ch6_s05_narrator_017",
+        "role": "narrator",
+        "text": "After the speech, the dinner was held in the school cafeteria. Simple dishes, warm hearts.",
+        "text_zh": "演讲结束后，晚宴在学校食堂举办。简单的菜肴，温暖的心。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 18,
+        "id": "ch6_s05_an_qi_018",
+        "role": "an_qi",
+        "text": "You did well, but Chen Zongjian will fight back.",
+        "text_zh": "你做得很好，但陈总监会反击。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 19,
+        "id": "ch6_s05_jiang_che_019",
+        "role": "jiang_che",
+        "text": "Then what should we do?",
+        "text_zh": "那我们该怎么办？",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 20,
+        "id": "ch6_s05_an_qi_020",
+        "role": "an_qi",
+        "text": "Strike first. I have collected Hengyuan's violation records.",
+        "text_zh": "先发制人。我已经搜集了恒远的违规记录。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 21,
+        "id": "ch6_s05_an_qi_021",
+        "role": "an_qi",
+        "text": "I believe you because your foolishness is really idealism.",
+        "text_zh": "我相信你，因为你的傻其实是理想主义。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 22,
+        "id": "ch6_s05_narrator_022",
+        "role": "narrator",
+        "text": "In the dim light of the cafeteria, her eyes held something fierce and pure.",
+        "text_zh": "在食堂昏黄的灯光下，她的眼睛里有一种近乎执拗的忠诚。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S06",
+    "lines": [
+      {
+        "seq": 23,
+        "id": "ch6_s06_narrator_023",
+        "role": "narrator",
+        "text": "Then, the door opened. A man in a dark grey suit stood at the entrance, two bodyguards behind him.",
+        "text_zh": "然后，门开了。一个穿深灰色西装的男人站在门口，身后两个保镖。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 24,
+        "id": "ch6_s06_chen_zongjian_024",
+        "role": "chen_zongjian",
+        "text": "Jiang Che, may I have a word? I am here to negotiate.",
+        "text_zh": "江彻，可以谈谈吗？我是来谈判的。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 25,
+        "id": "ch6_s06_an_qi_025",
+        "role": "an_qi",
+        "text": "Mr. Chen, this is harassment. If you do not leave, I will call the police.",
+        "text_zh": "陈先生，这是骚扰。如果你不离开，我会报警。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 26,
+        "id": "ch6_s06_chen_zongjian_026",
+        "role": "chen_zongjian",
+        "text": "We will abandon the mining plan if Jiang Che retracts his accusations.",
+        "text_zh": "如果江彻撤回指控，我们会放弃开采计划。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 27,
+        "id": "ch6_s06_jiang_che_027",
+        "role": "jiang_che",
+        "text": "My accusations are accurate. The recording is real, the data is real, the map is real.",
+        "text_zh": "我的指控是准确的。录音是真实的，数据是真实的，地图是真实的。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S07",
+    "lines": [
+      {
+        "seq": 28,
+        "id": "ch6_s07_narrator_028",
+        "role": "narrator",
+        "text": "A woman in a United Nations uniform stepped forward from the crowd.",
+        "text_zh": "一个穿联合国制服的女人从人群中走出。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 29,
+        "id": "ch6_s07_maria_029",
+        "role": "maria",
+        "text": "I am Maria Gonzalez, a UN Environment Programme representative. I heard every word.",
+        "text_zh": "我是玛丽亚·冈萨雷斯，联合国环境规划署代表。我听完了每一句话。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 30,
+        "id": "ch6_s07_maria_030",
+        "role": "maria",
+        "text": "Commercial mining in Antarctica violates the treaty and may become an international crime.",
+        "text_zh": "在南极商业开采违反条约，也可能构成国际犯罪。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 31,
+        "id": "ch6_s07_maria_031",
+        "role": "maria",
+        "text": "Abandon the plan. No one wants a court summons after retirement.",
+        "text_zh": "放弃计划吧。没人想在退休后收到法庭传票。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 32,
+        "id": "ch6_s07_narrator_032",
+        "role": "narrator",
+        "text": "Chen Zongjian's face turned from red to pale to ashen. He turned and walked out without a word.",
+        "text_zh": "陈总监的脸色从红润变成苍白，再变成铁青。他转身一言不发地走了出去。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH6-SD-S08",
+    "lines": [
+      {
+        "seq": 33,
+        "id": "ch6_s08_narrator_033",
+        "role": "narrator",
+        "text": "That night, Jiang Che received a video call from his parents.",
+        "text_zh": "那天晚上，江彻收到了父母的视频通话。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 34,
+        "id": "ch6_s08_jiang_mingyuan_034",
+        "role": "jiang_mingyuan",
+        "text": "We watched your speech live. You did well. Better than we imagined.",
+        "text_zh": "我们看了你的演讲直播。你做得很好。比我们想象的还要好。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 35,
+        "id": "ch6_s08_lin_xue_035",
+        "role": "lin_xue",
+        "text": "You said exactly what your father said on the ice fifteen years ago.",
+        "text_zh": "你说的和你父亲十五年前在冰原上说的完全一样。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 36,
+        "id": "ch6_s08_jiang_mingyuan_036",
+        "role": "jiang_mingyuan",
+        "text": "Chen is not alone. Other companies also want Antarctic mineral data.",
+        "text_zh": "陈不是唯一一个。其他公司也想得到南极矿产数据。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 37,
+        "id": "ch6_s08_lin_xue_037",
+        "role": "lin_xue",
+        "text": "Protect Antarctica for all humanity.",
+        "text_zh": "为全人类守护南极。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      },
+      {
+        "seq": 38,
+        "id": "ch6_s08_jiang_che_038",
+        "role": "jiang_che",
+        "text": "We will. Until the last moment.",
+        "text_zh": "我们会的。直到最后一刻。",
+        "speed": 1.0,
+        "emotion": "chapter6_default"
+      }
+    ]
+  }
+]

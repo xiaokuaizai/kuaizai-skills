@@ -1,0 +1,494 @@
+<!--
+SEG 示例片段目录。
+这些示例依赖 storyboard_seg_row_template.html 中的 CSS、SVG marker 和字段结构；复制某个 article.seg-row 到实际导演总表后，再替换所有 {{...}} 占位符。
+示例不应直接放入生产 HTML，也不应被截图脚本识别为真实 SEG。
+-->
+<div class="seg-example-catalog">
+    <!-- ===== 示例 SEG-01（3 个镜头） ===== -->
+    <article class="seg-row">
+      <div class="seg-head">
+        <div class="seg-id">SEG-01</div>
+        <div class="seg-title">风格：{{SEG_STYLE}}｜主要内容：{{SEG_SUMMARY}}</div>
+        <div class="badge">{{SEG_DURATION}} s</div>
+      </div>
+
+      <!-- 左栏：单镜头图网格 + 镜头号标签（3 镜 = 2×2，末格空） -->
+      <div class="sketch-area">
+        <div class="panel-grid" style="grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);">
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-01}}.png" alt="SH-01">
+            <div class="panel-label">SH-01</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-02}}.png" alt="SH-02">
+            <div class="panel-label">SH-02</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-03}}.png" alt="SH-03">
+            <div class="panel-label">SH-03</div>
+          </div>
+          <div class="panel-cell" style="visibility: hidden;">
+            <!-- 3 镜时末格留白，保持 2×2 网格结构 -->
+          </div>
+        </div>
+        <div class="caption">单镜头图按 2×2 顺序排列，第 4 格留白；镜头号标签在图下方，不压在画面上。</div>
+      </div>
+
+      <!-- 中栏：SEG 信息 -->
+      <div class="notes">
+        <div class="field">
+          <div class="label">镜头列表</div>
+          <table class="shot-table">
+            <thead>
+              <tr><th>镜头号</th><th>景别</th><th>拍摄视角</th><th>时长</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>{{SH-01}}</td><td>{{全景}}</td><td>{{24mm、平视、固定}}</td><td>{{3.0}} s</td></tr>
+              <tr><td>{{SH-02}}</td><td>{{中近景}}</td><td>{{50mm、眼平、固定}}</td><td>{{5.0}} s</td></tr>
+              <tr><td>{{SH-03}}</td><td>{{近景}}</td><td>{{85mm、眼平、缓慢前推}}</td><td>{{4.0}} s</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="field">
+          <div class="label">首帧锚点</div>
+          <div class="value">{{首帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+        <div class="field">
+          <div class="label">尾帧锚点</div>
+          <div class="value">{{尾帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+
+        <div class="field">
+          <div class="label">台词 / 旁白</div>
+          <div class="dialogue">
+            {{角色 A："对白文本"}}<br>
+            {{角色 B："对白文本"}}
+          </div>
+        </div>
+      </div>
+
+      <!-- 右栏：SVG 站位图 + 环境声 -->
+      <div class="blocking">
+        <div class="label">人物关系位置图 / CAM + FOV</div>
+        <svg class="blocking-svg" viewBox="0 0 360 360" role="img">
+          <!-- 场景边界 -->
+          <rect x="10" y="10" width="340" height="340" rx="16" fill="#fbfaf7" stroke="#c9c1b8"/>
+          <rect x="60" y="42" width="240" height="62" rx="10" fill="#ece6dc" stroke="#d4c6b6"/>
+          <text x="180" y="78" text-anchor="middle" class="svg-muted">{{场景名称}}</text>
+
+          <!-- FOV 扇形 -->
+          <path d="M 180 330 L 118 132 L 242 132 Z" fill="#7aa0c4" opacity="0.16" stroke="#7aa0c4" stroke-width="2"/>
+          <!-- 镜头方向 -->
+          <line x1="180" y1="330" x2="180" y2="170" stroke="#426d9b" stroke-width="4" marker-end="url(#arrow)"/>
+          <polygon points="160,346 200,346 180,306" fill="#426d9b"/>
+          <text x="180" y="372" text-anchor="middle" class="svg-cam">CAM</text>
+          <text x="310" y="330" text-anchor="end" class="svg-muted">{{机位说明}} / FOV</text>
+
+          <!-- 运动方向（虚线箭头） -->
+          <path d="M 158 302 C 170 260, 160 215, 174 188" fill="none" stroke="#bd6b61" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow-red)"/>
+
+          <!-- 人物位置 -->
+          <circle cx="180" cy="120" r="22" fill="#d9c14a" stroke="#333" stroke-width="2"/>
+          <text x="180" y="163" text-anchor="middle" class="svg-name">{{角色 A}}</text>
+          <circle cx="180" cy="265" r="22" fill="#d9a24e" stroke="#333" stroke-width="2"/>
+          <text x="180" y="308" text-anchor="middle" class="svg-name">{{角色 B}}</text>
+        </svg>
+        <div class="caption">圆点为人物/空间锚点；蓝色为镜头视角，红色虚线为推/拉/跟/摇方向。</div>
+        <div class="blocking-divider"></div>
+        <div class="blocking-sound">
+          <div class="label">环境声</div>
+          <div class="value sound">
+            环境：{{环境声描述}}<br>
+            动作：{{动作音效描述}}
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ===== 示例 SEG-02（2 个镜头） ===== -->
+    <article class="seg-row">
+      <div class="seg-head">
+        <div class="seg-id">SEG-02</div>
+        <div class="seg-title">风格：{{SEG_STYLE}}｜主要内容：{{SEG_SUMMARY}}</div>
+        <div class="badge">{{SEG_DURATION}} s</div>
+      </div>
+
+      <!-- 左栏：单镜头图网格 + 镜头号标签（编号在图外，不压图） -->
+      <div class="sketch-area">
+        <div class="panel-grid" style="grid-template-columns: repeat(2, 1fr);">
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-04}}.png" alt="SH-04">
+            <div class="panel-label">SH-04</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-05}}.png" alt="SH-05">
+            <div class="panel-label">SH-05</div>
+          </div>
+        </div>
+        <div class="caption">单镜头图按 1×2 顺序排列；镜头号标签在图下方。</div>
+      </div>
+
+      <div class="notes">
+        <div class="field">
+          <div class="label">镜头列表</div>
+          <table class="shot-table">
+            <thead>
+              <tr><th>镜头号</th><th>景别</th><th>拍摄视角</th><th>时长</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>{{SH-04}}</td><td>{{中景}}</td><td>{{35mm、侧窗方向、轻微跟摇}}</td><td>{{5.0}} s</td></tr>
+              <tr><td>{{SH-05}}</td><td>{{近景}}</td><td>{{85mm、眼平、固定}}</td><td>{{4.0}} s</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="field">
+          <div class="label">首帧锚点</div>
+          <div class="value">{{首帧画面描述}}</div>
+        </div>
+        <div class="field">
+          <div class="label">尾帧锚点</div>
+          <div class="value">{{尾帧画面描述}}</div>
+        </div>
+
+        <div class="field">
+          <div class="label">台词 / 旁白</div>
+          <div class="dialogue">
+            {{旁白（班车广播）："前方即将到达滨海机场，请乘客带好随身物品。"}}<br>
+            {{角色 A："对白文本"}}
+          </div>
+        </div>
+      </div>
+
+      <div class="blocking">
+        <div class="label">人物关系位置图 / CAM + FOV</div>
+        <svg class="blocking-svg" viewBox="0 0 360 360" role="img">
+          <rect x="10" y="10" width="340" height="340" rx="16" fill="#fbfaf7" stroke="#c9c1b8"/>
+          <rect x="60" y="42" width="240" height="62" rx="10" fill="#ece6dc" stroke="#d4c6b6"/>
+          <text x="180" y="78" text-anchor="middle" class="svg-muted">{{场景名称}}</text>
+
+          <path d="M 80 315 L 128 107 L 252 107 Z" fill="#7aa0c4" opacity="0.16" stroke="#7aa0c4" stroke-width="2"/>
+          <line x1="80" y1="315" x2="190" y2="145" stroke="#426d9b" stroke-width="4" marker-end="url(#arrow)"/>
+          <polygon points="60,331 100,331 80,291" fill="#426d9b"/>
+          <text x="80" y="357" text-anchor="middle" class="svg-cam">CAM</text>
+          <text x="310" y="330" text-anchor="end" class="svg-muted">{{机位说明}} / FOV</text>
+
+          <path d="M 58 287 C 70 245, 170 190, 184 163" fill="none" stroke="#bd6b61" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow-red)"/>
+
+          <circle cx="170" cy="145" r="22" fill="#d9a24e" stroke="#333" stroke-width="2"/>
+          <text x="170" y="188" text-anchor="middle" class="svg-name">{{角色 A}}</text>
+          <circle cx="265" cy="165" r="22" fill="#d9c14a" stroke="#333" stroke-width="2"/>
+          <text x="265" y="208" text-anchor="middle" class="svg-name">{{角色 B}}</text>
+        </svg>
+        <div class="caption">圆点为人物/空间锚点；蓝色为镜头视角，红色虚线为推/拉/跟/摇方向。</div>
+        <div class="blocking-divider"></div>
+        <div class="blocking-sound">
+          <div class="label">环境声</div>
+          <div class="value sound">
+            环境：{{环境声描述}}<br>
+            动作：{{动作音效描述}}
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ===== 示例 SEG-04（3 个镜头：旁白 + 角色 A + 旁白） ===== -->
+    <article class="seg-row">
+      <div class="seg-head">
+        <div class="seg-id">SEG-04</div>
+        <div class="seg-title">风格：{{SEG_STYLE}}｜主要内容：{{SEG_SUMMARY}}</div>
+        <div class="badge">{{SEG_DURATION}} s</div>
+      </div>
+
+      <!-- 左栏：单镜头图网格 + 镜头号标签（3 镜 = 2×2，末格空） -->
+      <div class="sketch-area">
+        <div class="panel-grid" style="grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);">
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-07}}.png" alt="SH-07">
+            <div class="panel-label">SH-07</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-08}}.png" alt="SH-08">
+            <div class="panel-label">SH-08</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-09}}.png" alt="SH-09">
+            <div class="panel-label">SH-09</div>
+          </div>
+          <div class="panel-cell" style="visibility: hidden;">
+            <!-- 3 镜时末格留白，保持 2×2 网格结构 -->
+          </div>
+        </div>
+        <div class="caption">单镜头图按 2×2 顺序排列，第 4 格留白；镜头号标签在图下方。</div>
+      </div>
+
+      <div class="notes">
+        <div class="field">
+          <div class="label">镜头列表</div>
+          <table class="shot-table">
+            <thead>
+              <tr><th>镜头号</th><th>景别</th><th>拍摄视角</th><th>时长</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>{{SH-07}}</td><td>{{全景}}</td><td>{{24mm、平视、固定}}</td><td>{{3.0}} s</td></tr>
+              <tr><td>{{SH-08}}</td><td>{{中近景}}</td><td>{{50mm、眼平、固定}}</td><td>{{4.0}} s</td></tr>
+              <tr><td>{{SH-09}}</td><td>{{近景}}</td><td>{{85mm、眼平、缓慢前推}}</td><td>{{4.0}} s</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="field">
+          <div class="label">首帧锚点</div>
+          <div class="value">{{首帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+        <div class="field">
+          <div class="label">尾帧锚点</div>
+          <div class="value">{{尾帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+
+        <div class="field">
+          <div class="label">台词 / 旁白</div>
+          <div class="dialogue">
+            {{旁白："十年前，他们第一次在这座城市相遇。"}}<br>
+            {{角色 A："你还记得这里吗？"}}<br>
+            {{旁白："而此刻，机场广播再次响起，像是某种回响。"}}
+          </div>
+        </div>
+      </div>
+
+      <div class="blocking">
+        <div class="label">人物关系位置图 / CAM + FOV</div>
+        <svg class="blocking-svg" viewBox="0 0 360 360" role="img">
+          <rect x="10" y="10" width="340" height="340" rx="16" fill="#fbfaf7" stroke="#c9c1b8"/>
+          <rect x="60" y="42" width="240" height="62" rx="10" fill="#ece6dc" stroke="#d4c6b6"/>
+          <text x="180" y="78" text-anchor="middle" class="svg-muted">{{场景名称}}</text>
+
+          <path d="M 180 330 L 118 132 L 242 132 Z" fill="#7aa0c4" opacity="0.16" stroke="#7aa0c4" stroke-width="2"/>
+          <line x1="180" y1="330" x2="180" y2="170" stroke="#426d9b" stroke-width="4" marker-end="url(#arrow)"/>
+          <polygon points="160,346 200,346 180,306" fill="#426d9b"/>
+          <text x="180" y="372" text-anchor="middle" class="svg-cam">CAM</text>
+          <text x="310" y="330" text-anchor="end" class="svg-muted">{{机位说明}} / FOV</text>
+
+          <path d="M 158 302 C 170 260, 160 215, 174 188" fill="none" stroke="#bd6b61" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow-red)"/>
+
+          <circle cx="180" cy="120" r="22" fill="#60a5fa" stroke="#333" stroke-width="2"/>
+          <text x="180" y="163" text-anchor="middle" class="svg-name">{{角色 A}}</text>
+          <circle cx="180" cy="265" r="22" fill="#f472b6" stroke="#333" stroke-width="2"/>
+          <text x="180" y="308" text-anchor="middle" class="svg-name">{{角色 B}}</text>
+        </svg>
+        <div class="caption">圆点为人物/空间锚点；蓝色为镜头视角，红色虚线为推/拉/跟/摇方向。</div>
+        <div class="blocking-divider"></div>
+        <div class="blocking-sound">
+          <div class="label">环境声</div>
+          <div class="value sound">
+            环境：{{环境声描述}}<br>
+            动作：{{动作音效描述}}
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ===== 示例 SEG-05（4 个镜头：2×2 网格） ===== -->
+    <article class="seg-row">
+      <div class="seg-head">
+        <div class="seg-id">SEG-05</div>
+        <div class="seg-title">风格：{{SEG_STYLE}}｜主要内容：{{SEG_SUMMARY}}</div>
+        <div class="badge">{{SEG_DURATION}} s</div>
+      </div>
+
+      <!-- 左栏：单镜头图网格 + 镜头号标签（4 镜 = 2×2） -->
+      <div class="sketch-area">
+        <div class="panel-grid" style="grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);">
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-10}}.png" alt="SH-10">
+            <div class="panel-label">SH-10</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-11}}.png" alt="SH-11">
+            <div class="panel-label">SH-11</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-12}}.png" alt="SH-12">
+            <div class="panel-label">SH-12</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-13}}.png" alt="SH-13">
+            <div class="panel-label">SH-13</div>
+          </div>
+        </div>
+        <div class="caption">单镜头图按 2×2 顺序排列；镜头号标签在图下方。</div>
+      </div>
+
+      <div class="notes">
+        <div class="field">
+          <div class="label">镜头列表</div>
+          <table class="shot-table">
+            <thead>
+              <tr><th>镜头号</th><th>景别</th><th>拍摄视角</th><th>时长</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>{{SH-10}}</td><td>{{全景}}</td><td>{{24mm、平视、固定}}</td><td>{{3.0}} s</td></tr>
+              <tr><td>{{SH-11}}</td><td>{{中景}}</td><td>{{35mm、平视、固定}}</td><td>{{3.0}} s</td></tr>
+              <tr><td>{{SH-12}}</td><td>{{中近景}}</td><td>{{50mm、眼平、固定}}</td><td>{{4.0}} s</td></tr>
+              <tr><td>{{SH-13}}</td><td>{{近景}}</td><td>{{85mm、眼平、缓慢前推}}</td><td>{{4.0}} s</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="field">
+          <div class="label">首帧锚点</div>
+          <div class="value">{{首帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+        <div class="field">
+          <div class="label">尾帧锚点</div>
+          <div class="value">{{尾帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+
+        <div class="field">
+          <div class="label">台词 / 旁白</div>
+          <div class="dialogue">
+            {{角色 A："对白文本"}}<br>
+            {{角色 B："对白文本"}}
+          </div>
+        </div>
+      </div>
+
+      <div class="blocking">
+        <div class="label">人物关系位置图 / CAM + FOV</div>
+        <svg class="blocking-svg" viewBox="0 0 360 360" role="img">
+          <rect x="10" y="10" width="340" height="340" rx="16" fill="#fbfaf7" stroke="#c9c1b8"/>
+          <rect x="60" y="42" width="240" height="62" rx="10" fill="#ece6dc" stroke="#d4c6b6"/>
+          <text x="180" y="78" text-anchor="middle" class="svg-muted">{{场景名称}}</text>
+
+          <path d="M 180 330 L 118 132 L 242 132 Z" fill="#7aa0c4" opacity="0.16" stroke="#7aa0c4" stroke-width="2"/>
+          <line x1="180" y1="330" x2="180" y2="170" stroke="#426d9b" stroke-width="4" marker-end="url(#arrow)"/>
+          <polygon points="160,346 200,346 180,306" fill="#426d9b"/>
+          <text x="180" y="372" text-anchor="middle" class="svg-cam">CAM</text>
+          <text x="310" y="330" text-anchor="end" class="svg-muted">{{机位说明}} / FOV</text>
+
+          <path d="M 158 302 C 170 260, 160 215, 174 188" fill="none" stroke="#bd6b61" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow-red)"/>
+
+          <circle cx="180" cy="120" r="22" fill="#60a5fa" stroke="#333" stroke-width="2"/>
+          <text x="180" y="163" text-anchor="middle" class="svg-name">{{角色 A}}</text>
+          <circle cx="180" cy="265" r="22" fill="#f472b6" stroke="#333" stroke-width="2"/>
+          <text x="180" y="308" text-anchor="middle" class="svg-name">{{角色 B}}</text>
+        </svg>
+        <div class="caption">圆点为人物/空间锚点；蓝色为镜头视角，红色虚线为推/拉/跟/摇方向。</div>
+        <div class="blocking-divider"></div>
+        <div class="blocking-sound">
+          <div class="label">环境声</div>
+          <div class="value sound">
+            环境：{{环境声描述}}<br>
+            动作：{{动作音效描述}}
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ===== 示例 SEG-06（5 个镜头：2×3 网格，末格留白） ===== -->
+    <article class="seg-row">
+      <div class="seg-head">
+        <div class="seg-id">SEG-06</div>
+        <div class="seg-title">风格：{{SEG_STYLE}}｜主要内容：{{SEG_SUMMARY}}</div>
+        <div class="badge">{{SEG_DURATION}} s</div>
+      </div>
+
+      <!-- 左栏：单镜头图网格 + 镜头号标签（5 镜 = 2×3，末格空） -->
+      <div class="sketch-area">
+        <div class="panel-grid" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr);">
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-14}}.png" alt="SH-14">
+            <div class="panel-label">SH-14</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-15}}.png" alt="SH-15">
+            <div class="panel-label">SH-15</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-16}}.png" alt="SH-16">
+            <div class="panel-label">SH-16</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-17}}.png" alt="SH-17">
+            <div class="panel-label">SH-17</div>
+          </div>
+          <div class="panel-cell">
+            <img class="panel-img" src="panels/{{SH-18}}.png" alt="SH-18">
+            <div class="panel-label">SH-18</div>
+          </div>
+          <div class="panel-cell" style="visibility: hidden;">
+            <!-- 末格留白，保持 2×3 网格结构 -->
+          </div>
+        </div>
+        <div class="caption">单镜头图按 2×3 顺序排列，第 6 格留白；镜头号标签在图下方。</div>
+      </div>
+
+      <div class="notes">
+        <div class="field">
+          <div class="label">镜头列表</div>
+          <table class="shot-table">
+            <thead>
+              <tr><th>镜头号</th><th>景别</th><th>拍摄视角</th><th>时长</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>{{SH-14}}</td><td>{{全景}}</td><td>{{24mm、平视、固定}}</td><td>{{2.5}} s</td></tr>
+              <tr><td>{{SH-15}}</td><td>{{中景}}</td><td>{{35mm、平视、固定}}</td><td>{{2.5}} s</td></tr>
+              <tr><td>{{SH-16}}</td><td>{{中近景}}</td><td>{{50mm、眼平、固定}}</td><td>{{3.0}} s</td></tr>
+              <tr><td>{{SH-17}}</td><td>{{近景}}</td><td>{{85mm、眼平、固定}}</td><td>{{3.0}} s</td></tr>
+              <tr><td>{{SH-18}}</td><td>{{特写}}</td><td>{{100mm、眼平、缓慢前推}}</td><td>{{4.0}} s</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="field">
+          <div class="label">首帧锚点</div>
+          <div class="value">{{首帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+        <div class="field">
+          <div class="label">尾帧锚点</div>
+          <div class="value">{{尾帧画面描述：人物位置、动作、道具、光线状态}}</div>
+        </div>
+
+        <div class="field">
+          <div class="label">台词 / 旁白</div>
+          <div class="dialogue">
+            {{角色 A："对白文本"}}<br>
+            {{角色 B："对白文本"}}
+          </div>
+        </div>
+      </div>
+
+      <div class="blocking">
+        <div class="label">人物关系位置图 / CAM + FOV</div>
+        <svg class="blocking-svg" viewBox="0 0 360 360" role="img">
+          <rect x="10" y="10" width="340" height="340" rx="16" fill="#fbfaf7" stroke="#c9c1b8"/>
+          <rect x="60" y="42" width="240" height="62" rx="10" fill="#ece6dc" stroke="#d4c6b6"/>
+          <text x="180" y="78" text-anchor="middle" class="svg-muted">{{场景名称}}</text>
+
+          <path d="M 180 330 L 118 132 L 242 132 Z" fill="#7aa0c4" opacity="0.16" stroke="#7aa0c4" stroke-width="2"/>
+          <line x1="180" y1="330" x2="180" y2="170" stroke="#426d9b" stroke-width="4" marker-end="url(#arrow)"/>
+          <polygon points="160,346 200,346 180,306" fill="#426d9b"/>
+          <text x="180" y="372" text-anchor="middle" class="svg-cam">CAM</text>
+          <text x="310" y="330" text-anchor="end" class="svg-muted">{{机位说明}} / FOV</text>
+
+          <path d="M 158 302 C 170 260, 160 215, 174 188" fill="none" stroke="#bd6b61" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow-red)"/>
+
+          <circle cx="120" cy="120" r="22" fill="#60a5fa" stroke="#333" stroke-width="2"/>
+          <text x="120" y="163" text-anchor="middle" class="svg-name">{{角色 A}}</text>
+          <circle cx="240" cy="120" r="22" fill="#f472b6" stroke="#333" stroke-width="2"/>
+          <text x="240" y="163" text-anchor="middle" class="svg-name">{{角色 B}}</text>
+        </svg>
+        <div class="caption">圆点为人物/空间锚点；蓝色为镜头视角，红色虚线为推/拉/跟/摇方向。</div>
+        <div class="blocking-divider"></div>
+        <div class="blocking-sound">
+          <div class="label">环境声</div>
+          <div class="value sound">
+            环境：{{环境声描述}}<br>
+            动作：{{动作音效描述}}
+          </div>
+        </div>
+      </div>
+    </article>
+</div>
+

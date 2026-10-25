@@ -1,0 +1,399 @@
+[
+  {
+    "scene": "S01",
+    "lines": [
+      {
+        "id": "ch3_s01_narrator_001",
+        "role": "narrator",
+        "text": "Jiang Che received a reply from the National Antarctic Expedition Office.",
+        "speed": 1.0,
+        "emotion": "calm"
+      },
+      {
+        "id": "ch3_s01_email_002",
+        "role": "email",
+        "text": "Please provide a full technical plan, medical reports, and proof of safety training.",
+        "speed": 1.0,
+        "emotion": "formal"
+      },
+      {
+        "id": "ch3_s01_an_qi_003",
+        "role": "an_qi",
+        "text": "Medical reports? Why do they need medical reports?",
+        "speed": 1.0,
+        "emotion": "curious"
+      },
+      {
+        "id": "ch3_s01_jiang_che_004",
+        "role": "jiang_che",
+        "text": "Antarctica is extreme: altitude sickness, hypothermia, and ultraviolet burns.",
+        "speed": 1.0,
+        "emotion": "controlled"
+      },
+      {
+        "id": "ch3_s01_jiang_che_005",
+        "role": "jiang_che",
+        "text": "I had pneumonia as a child and stayed in the ICU for two weeks.",
+        "speed": 1.0,
+        "emotion": "low"
+      },
+      {
+        "id": "ch3_s01_an_qi_006",
+        "role": "an_qi",
+        "text": "I will go with you.",
+        "speed": 1.0,
+        "emotion": "steady"
+      }
+    ]
+  },
+  {
+    "scene": "S02",
+    "lines": [
+      {
+        "id": "ch3_s02_narrator_007",
+        "role": "narrator",
+        "text": "The direction finder had arrived.",
+        "speed": 1.0,
+        "emotion": "neutral"
+      },
+      {
+        "id": "ch3_s02_narrator_008",
+        "role": "narrator",
+        "text": "Jiang Che ran his signal tracking program for the first real test.",
+        "speed": 1.0,
+        "emotion": "neutral"
+      },
+      {
+        "id": "ch3_s02_narrator_009",
+        "role": "narrator",
+        "text": "A sharp chemical smell entered his nose.",
+        "speed": 1.0,
+        "emotion": "tense"
+      }
+    ]
+  },
+  {
+    "scene": "S03",
+    "lines": [
+      {
+        "id": "ch3_s03_jiang_che_010",
+        "role": "jiang_che",
+        "text": "Someone spilled chemicals.",
+        "speed": 1.0,
+        "emotion": "urgent"
+      },
+      {
+        "id": "ch3_s03_jiang_che_011",
+        "role": "jiang_che",
+        "text": "Someone must shut off the gas source.",
+        "speed": 1.0,
+        "emotion": "urgent"
+      },
+      {
+        "id": "ch3_s03_narrator_012",
+        "role": "narrator",
+        "text": "The warning sign said, \"Toxic Gas. Do Not Enter Without Protection.\"",
+        "speed": 1.0,
+        "emotion": "tense"
+      },
+      {
+        "id": "ch3_s03_narrator_013",
+        "role": "narrator",
+        "text": "He saw the word toxic, but his brain did not process it.",
+        "speed": 1.0,
+        "emotion": "tense"
+      },
+      {
+        "id": "ch3_s03_narrator_014",
+        "role": "narrator",
+        "text": "He kicked the laboratory door open.",
+        "speed": 1.0,
+        "emotion": "urgent"
+      },
+      {
+        "id": "ch3_s03_narrator_015",
+        "role": "narrator",
+        "text": "Yellow smoke hit his face like a wall.",
+        "speed": 1.0,
+        "emotion": "tense"
+      },
+      {
+        "id": "ch3_s03_narrator_016",
+        "role": "narrator",
+        "text": "There was no one in the laboratory.",
+        "speed": 1.0,
+        "emotion": "shocked"
+      }
+    ]
+  },
+  {
+    "scene": "S04",
+    "lines": [
+      {
+        "id": "ch3_s04_narrator_017",
+        "role": "narrator",
+        "text": "Then the world went silent.",
+        "speed": 1.0,
+        "emotion": "hushed"
+      },
+      {
+        "id": "ch3_s04_narrator_018",
+        "role": "narrator",
+        "text": "He had lost his hearing.",
+        "speed": 1.0,
+        "emotion": "hushed"
+      },
+      {
+        "id": "ch3_s04_narrator_019",
+        "role": "narrator",
+        "text": "He remembered what his father had said: \"You will face many difficulties.\"",
+        "speed": 1.0,
+        "emotion": "low"
+      },
+      {
+        "id": "ch3_s04_narrator_020",
+        "role": "narrator",
+        "text": "Was this a difficulty?",
+        "speed": 1.0,
+        "emotion": "broken"
+      },
+      {
+        "id": "ch3_s04_narrator_021",
+        "role": "narrator",
+        "text": "It was worse than any difficulty he had imagined.",
+        "speed": 1.0,
+        "emotion": "broken"
+      },
+      {
+        "id": "ch3_s04_narrator_022",
+        "role": "narrator",
+        "text": "It was not money, not betrayal, and not a technical problem.",
+        "speed": 1.0,
+        "emotion": "broken"
+      },
+      {
+        "id": "ch3_s04_narrator_023",
+        "role": "narrator",
+        "text": "It was himself. He had pushed himself into danger.",
+        "speed": 1.0,
+        "emotion": "ashamed"
+      },
+      {
+        "id": "ch3_s04_narrator_024",
+        "role": "narrator",
+        "text": "If he had stopped to read that line, everything might have been different.",
+        "speed": 1.0,
+        "emotion": "regretful"
+      },
+      {
+        "id": "ch3_s04_narrator_025",
+        "role": "narrator",
+        "text": "\"Toxic.\"",
+        "speed": 1.0,
+        "emotion": "hushed"
+      },
+      {
+        "id": "ch3_s04_narrator_026",
+        "role": "narrator",
+        "text": "That word echoed in his mind again and again.",
+        "speed": 1.0,
+        "emotion": "agonized"
+      },
+      {
+        "id": "ch3_s04_narrator_027",
+        "role": "narrator",
+        "text": "He knew it meant \"poisonous.\"",
+        "speed": 1.0,
+        "emotion": "ashamed"
+      },
+      {
+        "id": "ch3_s04_narrator_028",
+        "role": "narrator",
+        "text": "But in that urgent moment, \"someone is inside\" was louder than any warning.",
+        "speed": 1.0,
+        "emotion": "ashamed"
+      },
+      {
+        "id": "ch3_s04_narrator_029",
+        "role": "narrator",
+        "text": "He was wrong. This mistake might follow him for the rest of his life.",
+        "speed": 1.0,
+        "emotion": "low"
+      }
+    ]
+  },
+  {
+    "scene": "S05",
+    "lines": [
+      {
+        "id": "ch3_s05_an_qi_030",
+        "role": "an_qi",
+        "text": "Can you hear me?",
+        "speed": 1.0,
+        "emotion": "urgent"
+      },
+      {
+        "id": "ch3_s05_guard_031",
+        "role": "guard",
+        "text": "He cannot hear.",
+        "speed": 1.0,
+        "emotion": "flat"
+      },
+      {
+        "id": "ch3_s05_an_qi_032",
+        "role": "an_qi",
+        "text": "Look at me. This is not your fault.",
+        "speed": 1.0,
+        "emotion": "firm"
+      }
+    ]
+  },
+  {
+    "scene": "S06",
+    "lines": [
+      {
+        "id": "ch3_s06_narrator_033",
+        "role": "narrator",
+        "text": "The ambulance arrived ten minutes later.",
+        "speed": 1.0,
+        "emotion": "calm"
+      },
+      {
+        "id": "ch3_s06_narrator_034",
+        "role": "narrator",
+        "text": "He could feel the warmth of An Qi's hand.",
+        "speed": 1.0,
+        "emotion": "quiet"
+      }
+    ]
+  },
+  {
+    "scene": "S07",
+    "lines": [
+      {
+        "id": "ch3_s07_doctor_035",
+        "role": "doctor",
+        "text": "You are lucky. There is no permanent lung damage.",
+        "speed": 1.0,
+        "emotion": "professional"
+      },
+      {
+        "id": "ch3_s07_jiang_che_036",
+        "role": "jiang_che",
+        "text": "I almost died. I knew the word toxic, but I did not understand it in time.",
+        "speed": 1.0,
+        "emotion": "broken"
+      },
+      {
+        "id": "ch3_s07_an_qi_037",
+        "role": "an_qi",
+        "text": "You knew it. You just could not remember it in time.",
+        "speed": 1.0,
+        "emotion": "calm"
+      },
+      {
+        "id": "ch3_s07_jiang_che_038",
+        "role": "jiang_che",
+        "text": "I do not deserve to go to Antarctica.",
+        "speed": 1.0,
+        "emotion": "ashamed"
+      },
+      {
+        "id": "ch3_s07_an_qi_039",
+        "role": "an_qi",
+        "text": "The video showed a cleaner behind the fume hood.",
+        "speed": 1.0,
+        "emotion": "clear"
+      },
+      {
+        "id": "ch3_s07_an_qi_040",
+        "role": "an_qi",
+        "text": "When you opened the door, he escaped.",
+        "speed": 1.0,
+        "emotion": "clear"
+      },
+      {
+        "id": "ch3_s07_an_qi_041",
+        "role": "an_qi",
+        "text": "You did save him.",
+        "speed": 1.0,
+        "emotion": "clear"
+      }
+    ]
+  },
+  {
+    "scene": "S08",
+    "lines": [
+      {
+        "id": "ch3_s08_an_qi_042",
+        "role": "an_qi",
+        "text": "Courage and impulse are separated by one thin line.",
+        "speed": 1.0,
+        "emotion": "teaching"
+      },
+      {
+        "id": "ch3_s08_an_qi_043",
+        "role": "an_qi",
+        "text": "Spend one more second reading the word before you act.",
+        "speed": 1.0,
+        "emotion": "firm"
+      },
+      {
+        "id": "ch3_s08_an_qi_044",
+        "role": "an_qi",
+        "text": "Every day, I will teach you ten safety warning words.",
+        "speed": 1.0,
+        "emotion": "warm"
+      },
+      {
+        "id": "ch3_s08_jiang_che_045",
+        "role": "jiang_che",
+        "text": "Toxic means poisonous.",
+        "speed": 1.0,
+        "emotion": "soft"
+      },
+      {
+        "id": "ch3_s08_jiang_che_046",
+        "role": "jiang_che",
+        "text": "Flammable means easy to burn.",
+        "speed": 1.0,
+        "emotion": "slow"
+      },
+      {
+        "id": "ch3_s08_jiang_che_047",
+        "role": "jiang_che",
+        "text": "Corrosive means able to destroy by chemical action.",
+        "speed": 1.0,
+        "emotion": "slow"
+      },
+      {
+        "id": "ch3_s08_jiang_che_048",
+        "role": "jiang_che",
+        "text": "Biohazard means biological danger.",
+        "speed": 1.0,
+        "emotion": "slow"
+      },
+      {
+        "id": "ch3_s08_an_qi_049",
+        "role": "an_qi",
+        "text": "Hope.",
+        "speed": 1.0,
+        "emotion": "gentle"
+      },
+      {
+        "id": "ch3_s08_jiang_che_050",
+        "role": "jiang_che",
+        "text": "Hope means hope.",
+        "speed": 1.0,
+        "emotion": "quiet"
+      },
+      {
+        "id": "ch3_s08_jiang_che_051",
+        "role": "jiang_che",
+        "text": "Unless I learn, the plan fails.",
+        "speed": 1.0,
+        "emotion": "resolved"
+      }
+    ]
+  }
+]

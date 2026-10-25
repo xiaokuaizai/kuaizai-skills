@@ -1,0 +1,393 @@
+[
+  {
+    "scene": "CH5-SD-S01",
+    "lines": [
+      {
+        "seq": 1,
+        "id": "ch5_s01_narrator_001",
+        "role": "narrator",
+        "text": "For three weeks, the sun had not risen over Great Wall Station.",
+        "text_zh": "连续三周，长城站上空没有太阳升起。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 2,
+        "id": "ch5_s01_an_qi_002",
+        "role": "an_qi",
+        "text": "Your mask is frozen. Your lips are turning purple.",
+        "text_zh": "你的面罩结霜了，嘴唇也开始发紫。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 3,
+        "id": "ch5_s01_jiang_che_003",
+        "role": "jiang_che",
+        "text": "Five more minutes. I want to find the Southern Cross.",
+        "text_zh": "再五分钟。我想找到南十字座。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 4,
+        "id": "ch5_s01_an_qi_004",
+        "role": "an_qi",
+        "text": "It is beautiful, but it feels like a trap.",
+        "text_zh": "它很美，但美得像一个陷阱。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S02",
+    "lines": [
+      {
+        "seq": 5,
+        "id": "ch5_s02_narrator_005",
+        "role": "narrator",
+        "text": "Inside the warm room, the old recorder waited on the table.",
+        "text_zh": "温暖的房间里，旧录音机静静地放在桌上。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 6,
+        "id": "ch5_s02_jiang_che_006",
+        "role": "jiang_che",
+        "text": "If this tape still works, we may hear my father from ten years ago.",
+        "text_zh": "如果这盘磁带还能用，我们可能会听见十年前的父亲。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 7,
+        "id": "ch5_s02_father_recording_007",
+        "role": "father_recording",
+        "text": "This is the first day of the core transmitter installation.",
+        "text_zh": "今天是核心发射器安装的第一天。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 8,
+        "id": "ch5_s02_narrator_008",
+        "role": "narrator",
+        "text": "The tape turned, and the past entered the room.",
+        "text_zh": "磁带开始转动，过去走进了这个房间。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S03",
+    "lines": [
+      {
+        "seq": 9,
+        "id": "ch5_s03_mother_recording_009",
+        "role": "mother_recording",
+        "text": "Commercial mining is forbidden by the Antarctic Treaty.",
+        "text_zh": "《南极条约》禁止商业开采。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 10,
+        "id": "ch5_s03_father_recording_010",
+        "role": "father_recording",
+        "text": "Antarctica is valuable because of what lives above the ice.",
+        "text_zh": "南极的价值，在于冰面上活着的生命。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 11,
+        "id": "ch5_s03_an_qi_011",
+        "role": "an_qi",
+        "text": "If the map falls into the wrong hands, it becomes a treasure map.",
+        "text_zh": "如果地图落入错误的人手里，它就会变成藏宝图。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 12,
+        "id": "ch5_s03_jiang_che_012",
+        "role": "jiang_che",
+        "text": "Then the data is not a prize. It is a responsibility.",
+        "text_zh": "那这些数据不是奖品，而是一份责任。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S04",
+    "lines": [
+      {
+        "seq": 13,
+        "id": "ch5_s04_narrator_013",
+        "role": "narrator",
+        "text": "A red dashed line crossed the map toward the eastern coast.",
+        "text_zh": "一条红色虚线穿过地图，延伸到东侧海岸。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 14,
+        "id": "ch5_s04_an_qi_014",
+        "role": "an_qi",
+        "text": "Why would your parents mark an emergency route?",
+        "text_zh": "你的父母为什么要标出备用撤离路线？",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 15,
+        "id": "ch5_s04_jiang_che_015",
+        "role": "jiang_che",
+        "text": "Because they knew someone would need it one day.",
+        "text_zh": "因为他们知道，总有一天会有人需要它。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 16,
+        "id": "ch5_s04_narrator_016",
+        "role": "narrator",
+        "text": "Outside the window, the world disappeared into white wind.",
+        "text_zh": "窗外，整个世界消失在白色狂风里。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S05",
+    "lines": [
+      {
+        "seq": 17,
+        "id": "ch5_s05_jiang_che_017",
+        "role": "jiang_che",
+        "text": "The main antenna signal is dropping.",
+        "text_zh": "主天线信号正在下降。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 18,
+        "id": "ch5_s05_an_qi_018",
+        "role": "an_qi",
+        "text": "Switch to the backup channel. I will record the weather data.",
+        "text_zh": "切到备用频道。我来记录气象数据。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 19,
+        "id": "ch5_s05_jiang_che_019",
+        "role": "jiang_che",
+        "text": "What if the storm lasts for days?",
+        "text_zh": "如果暴风雪持续好几天怎么办？",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 20,
+        "id": "ch5_s05_an_qi_020",
+        "role": "an_qi",
+        "text": "Then I'll keep teaching you words until the last minute.",
+        "text_zh": "那我就继续教你背单词，直到最后一分钟。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S06",
+    "lines": [
+      {
+        "seq": 21,
+        "id": "ch5_s06_narrator_021",
+        "role": "narrator",
+        "text": "After seven hours, the station was still standing, but everything outside had changed.",
+        "text_zh": "七小时后，站还在，但外面已经面目全非。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 22,
+        "id": "ch5_s06_jiang_che_022",
+        "role": "jiang_che",
+        "text": "I am the one who understands the relay equipment.",
+        "text_zh": "我是最懂中继设备的人。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 23,
+        "id": "ch5_s06_an_qi_023",
+        "role": "an_qi",
+        "text": "Now he has a coat, a mask, a radio, and me.",
+        "text_zh": "现在他有防寒服、面罩、对讲机，还有我。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 24,
+        "id": "ch5_s06_jiang_mingyuan_024",
+        "role": "jiang_mingyuan",
+        "text": "Take the ice axe and the safety rope.",
+        "text_zh": "带上冰镐和安全绳。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 25,
+        "id": "ch5_s06_jiang_mingyuan_025",
+        "role": "jiang_mingyuan",
+        "text": "If the weather turns, come back at once.",
+        "text_zh": "如果天气变坏，立刻回来。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S07",
+    "lines": [
+      {
+        "seq": 26,
+        "id": "ch5_s07_narrator_026",
+        "role": "narrator",
+        "text": "The snowmobile moved across the ice like a small boat in a white sea.",
+        "text_zh": "雪地摩托穿过冰原，像白色海洋里的一艘小船。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 27,
+        "id": "ch5_s07_an_qi_027",
+        "role": "an_qi",
+        "text": "The GPS says the relay station is two hundred meters ahead.",
+        "text_zh": "GPS 显示中继站就在前方两百米。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 28,
+        "id": "ch5_s07_jiang_che_028",
+        "role": "jiang_che",
+        "text": "The antenna is bent. The equipment may need to warm up first.",
+        "text_zh": "天线弯了，设备可能要先预热。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 29,
+        "id": "ch5_s07_narrator_029",
+        "role": "narrator",
+        "text": "Frost covered the metal panels like a second skin.",
+        "text_zh": "霜覆盖在金属面板上，像第二层皮肤。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 30,
+        "id": "ch5_s07_jiang_che_030",
+        "role": "jiang_che",
+        "text": "The relay light is back, but the signal is still weak.",
+        "text_zh": "中继灯恢复了，但信号仍然很弱。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 31,
+        "id": "ch5_s07_an_qi_031",
+        "role": "an_qi",
+        "text": "Then every living signal matters tonight.",
+        "text_zh": "那今晚每一个生命信号都重要。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH5-SD-S08",
+    "lines": [
+      {
+        "seq": 32,
+        "id": "ch5_s08_an_qi_032",
+        "role": "an_qi",
+        "text": "Jiang Che, look over there.",
+        "text_zh": "江彻，看那边。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 33,
+        "id": "ch5_s08_jiang_che_033",
+        "role": "jiang_che",
+        "text": "An Adelie penguin should not be alone at night.",
+        "text_zh": "阿德利企鹅不该在夜里独自行动。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 34,
+        "id": "ch5_s08_jiang_che_034",
+        "role": "jiang_che",
+        "text": "Its wing is broken.",
+        "text_zh": "它的翅膀骨折了。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 35,
+        "id": "ch5_s08_an_qi_035",
+        "role": "an_qi",
+        "text": "There is a metal ring on its foot.",
+        "text_zh": "它脚上有一个金属环。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 36,
+        "id": "ch5_s08_an_qi_036",
+        "role": "an_qi",
+        "text": "We should call the station before we move it.",
+        "text_zh": "我们移动它之前，应该先联系站里。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 37,
+        "id": "ch5_s08_jiang_che_037",
+        "role": "jiang_che",
+        "text": "Then we'll follow the station's instructions.",
+        "text_zh": "那就按站里的指示办。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 38,
+        "id": "ch5_s08_jiang_che_038",
+        "role": "jiang_che",
+        "text": "Project Antarctic Star One. December twenty-fourth, twenty thirteen.",
+        "text_zh": "南极星一号。二零一三年十二月二十四日。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      },
+      {
+        "seq": 39,
+        "id": "ch5_s08_narrator_039",
+        "role": "narrator",
+        "text": "Life was the most honest signal left on the ice.",
+        "text_zh": "生命，才是冰原上留下的最真实信号。",
+        "speed": 1.0,
+        "emotion": "chapter5_default"
+      }
+    ]
+  }
+]

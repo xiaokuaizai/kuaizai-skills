@@ -1,0 +1,402 @@
+[
+  {
+    "scene": "CH7-SD-S01",
+    "lines": [
+      {
+        "seq": 1,
+        "id": "ch7_s01_narrator_001",
+        "role": "narrator",
+        "text": "June light poured into the exam room as the final bell rang.",
+        "text_zh": "最后一声铃响时，六月的光涌进考场。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 2,
+        "id": "ch7_s01_jiang_che_002",
+        "role": "jiang_che",
+        "text": "I left the last math question half done.",
+        "text_zh": "我最后一道数学题只做了一半。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 3,
+        "id": "ch7_s01_an_qi_003",
+        "role": "an_qi",
+        "text": "You? The champion of every problem?",
+        "text_zh": "你？每道题的冠军？",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 4,
+        "id": "ch7_s01_jiang_che_004",
+        "role": "jiang_che",
+        "text": "I thought about Antarctic data and lost five minutes.",
+        "text_zh": "我想到南极数据，走神了五分钟。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 5,
+        "id": "ch7_s01_narrator_005",
+        "role": "narrator",
+        "text": "Outside, teams ran across the field like a race after a long winter.",
+        "text_zh": "外面，学生们成队跑过操场，像熬过漫长冬天后的一场比赛。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S02",
+    "lines": [
+      {
+        "seq": 6,
+        "id": "ch7_s02_narrator_006",
+        "role": "narrator",
+        "text": "The hot pot steamed between them, red soup and white soup sharing one table.",
+        "text_zh": "火锅热气在两人中间升起，红汤白汤共用一张桌。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 7,
+        "id": "ch7_s02_an_qi_007",
+        "role": "an_qi",
+        "text": "Beef, potato, mushroom, spinach. We are ordering everything.",
+        "text_zh": "牛肉、土豆、蘑菇、菠菜。我们全都点。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 8,
+        "id": "ch7_s02_jiang_che_008",
+        "role": "jiang_che",
+        "text": "After exams, even vegetables taste like freedom.",
+        "text_zh": "考完试以后，连蔬菜都像自由的味道。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 9,
+        "id": "ch7_s02_an_qi_009",
+        "role": "an_qi",
+        "text": "Check your phone. The mail is from UNEP.",
+        "text_zh": "看你的手机。邮件来自联合国环境规划署。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 10,
+        "id": "ch7_s02_jiang_che_010",
+        "role": "jiang_che",
+        "text": "They invited both of us to Geneva.",
+        "text_zh": "他们邀请我们两个人去日内瓦。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 11,
+        "id": "ch7_s02_an_qi_011",
+        "role": "an_qi",
+        "text": "Then our next match is bigger than school.",
+        "text_zh": "那我们下一场比赛就不只是学校了。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S03",
+    "lines": [
+      {
+        "seq": 12,
+        "id": "ch7_s03_narrator_012",
+        "role": "narrator",
+        "text": "A month later, Jiang Che returned to Great Wall Station as a project member.",
+        "text_zh": "一个月后，江彻作为项目成员回到长城站。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 13,
+        "id": "ch7_s03_jiang_mingyuan_013",
+        "role": "jiang_mingyuan",
+        "text": "Welcome back. This time, you are not a guest.",
+        "text_zh": "欢迎回来。这一次，你不是客人。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 14,
+        "id": "ch7_s03_jiang_che_014",
+        "role": "jiang_che",
+        "text": "Then teach me the work, not just the story.",
+        "text_zh": "那就教我工作，不只是讲故事。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 15,
+        "id": "ch7_s03_narrator_015",
+        "role": "narrator",
+        "text": "He checked weather equipment, ice cores, and penguin data before sunset.",
+        "text_zh": "日落前，他检查气象设备、冰芯和企鹅数据。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 16,
+        "id": "ch7_s03_jiang_che_016",
+        "role": "jiang_che",
+        "text": "The signal is still sending. It feels alive.",
+        "text_zh": "信号还在发送。它像是活着。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S04",
+    "lines": [
+      {
+        "seq": 17,
+        "id": "ch7_s04_jiang_mingyuan_017",
+        "role": "jiang_mingyuan",
+        "text": "Your mother and I saw an aurora here years ago.",
+        "text_zh": "很多年前，你妈妈和我在这里看见极光。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 18,
+        "id": "ch7_s04_jiang_mingyuan_018",
+        "role": "jiang_mingyuan",
+        "text": "We wanted more people to know this beauty existed.",
+        "text_zh": "我们想让更多人知道，这样的美真实存在。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 19,
+        "id": "ch7_s04_jiang_che_019",
+        "role": "jiang_che",
+        "text": "So the signal was a promise.",
+        "text_zh": "所以那个信号是一份承诺。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 20,
+        "id": "ch7_s04_jiang_mingyuan_020",
+        "role": "jiang_mingyuan",
+        "text": "Yes. A promise that the next generation might answer.",
+        "text_zh": "是的。一份等待下一代回应的承诺。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S05",
+    "lines": [
+      {
+        "seq": 21,
+        "id": "ch7_s05_narrator_021",
+        "role": "narrator",
+        "text": "Near the transmitter, Jiang Che found a small green patch on black rock.",
+        "text_zh": "在发射器附近，江彻在黑色岩石上发现了一小片绿色。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 22,
+        "id": "ch7_s05_jiang_che_022",
+        "role": "jiang_che",
+        "text": "A plant? Here, in this cold?",
+        "text_zh": "植物？在这里，在这样的寒冷里？",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 23,
+        "id": "ch7_s05_narrator_023",
+        "role": "narrator",
+        "text": "It was lichen, growing slowly like a tiny map of life.",
+        "text_zh": "那是地衣，慢慢生长，像一张微小的生命地图。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 24,
+        "id": "ch7_s05_jiang_che_024",
+        "role": "jiang_che",
+        "text": "Life does not shout. It grows.",
+        "text_zh": "生命不会呐喊。它会生长。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 25,
+        "id": "ch7_s05_jiang_che_email_025",
+        "role": "jiang_che_email",
+        "text": "An Qi, this lichen may be a hundred years old.",
+        "text_zh": "安琪，这片地衣可能已经一百岁了。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 26,
+        "id": "ch7_s05_jiang_che_email_026",
+        "role": "jiang_che_email",
+        "text": "Wait for me. We will go to Geneva together.",
+        "text_zh": "等我。我们一起去日内瓦。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S06",
+    "lines": [
+      {
+        "seq": 27,
+        "id": "ch7_s06_narrator_027",
+        "role": "narrator",
+        "text": "In September, flags moved in the wind outside the United Nations building.",
+        "text_zh": "九月，联合国大楼外，国旗在风中飘动。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 28,
+        "id": "ch7_s06_an_qi_028",
+        "role": "an_qi",
+        "text": "Nervous?",
+        "text_zh": "紧张吗？",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 29,
+        "id": "ch7_s06_jiang_che_029",
+        "role": "jiang_che",
+        "text": "No. It feels like a dream I should not wake from.",
+        "text_zh": "不。它像一场我不该醒来的梦。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 30,
+        "id": "ch7_s06_host_030",
+        "role": "host",
+        "text": "Please welcome Jiang Che and An Qi from China.",
+        "text_zh": "请欢迎来自中国的江彻和安琪。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S07",
+    "lines": [
+      {
+        "seq": 31,
+        "id": "ch7_s07_jiang_che_031",
+        "role": "jiang_che",
+        "text": "This lichen grows only a little each year.",
+        "text_zh": "这种地衣每年只生长一点点。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 32,
+        "id": "ch7_s07_jiang_che_032",
+        "role": "jiang_che",
+        "text": "It survived storms, polar nights, and impossible cold.",
+        "text_zh": "它挺过了暴风雪、极夜和难以想象的寒冷。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 33,
+        "id": "ch7_s07_jiang_che_033",
+        "role": "jiang_che",
+        "text": "We were high school students when we heard a signal from Antarctica.",
+        "text_zh": "当我们听到来自南极的信号时，我们只是高中生。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 34,
+        "id": "ch7_s07_jiang_che_034",
+        "role": "jiang_che",
+        "text": "We decoded it, understood it, and chose to answer.",
+        "text_zh": "我们破译它，理解它，并选择回应它。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 35,
+        "id": "ch7_s07_jiang_che_035",
+        "role": "jiang_che",
+        "text": "Change begins when ordinary people refuse to give up.",
+        "text_zh": "当普通人拒绝放弃时，改变就开始了。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 36,
+        "id": "ch7_s07_jiang_che_036",
+        "role": "jiang_che",
+        "text": "Protect Antarctica for all humanity.",
+        "text_zh": "为全人类保护南极。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  },
+  {
+    "scene": "CH7-SD-S08",
+    "lines": [
+      {
+        "seq": 37,
+        "id": "ch7_s08_narrator_037",
+        "role": "narrator",
+        "text": "Applause rose in the hall, but Jiang Che felt strangely calm.",
+        "text_zh": "掌声在大厅里响起，但江彻却异常平静。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 38,
+        "id": "ch7_s08_an_qi_038",
+        "role": "an_qi",
+        "text": "This is not the end.",
+        "text_zh": "这不是结束。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 39,
+        "id": "ch7_s08_jiang_che_039",
+        "role": "jiang_che",
+        "text": "No. It is the first signal we send back.",
+        "text_zh": "不是。这是我们发回去的第一个信号。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      },
+      {
+        "seq": 40,
+        "id": "ch7_s08_narrator_040",
+        "role": "narrator",
+        "text": "Far away, lichen grew on rock, and Antarctic Star One walked toward the sea.",
+        "text_zh": "远方，地衣在岩石上生长，南极星一号走向大海。",
+        "speed": 1.0,
+        "emotion": "chapter7_default"
+      }
+    ]
+  }
+]

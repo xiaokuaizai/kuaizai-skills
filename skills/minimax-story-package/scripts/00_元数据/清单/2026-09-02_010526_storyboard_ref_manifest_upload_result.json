@@ -1,0 +1,199 @@
+{
+  "manifest_type": "upload_result",
+  "uploaded_at": "2026-09-02T01:06:37.986700+08:00",
+  "dry_run": false,
+  "project": "Lexi",
+  "branch": "支线02",
+  "asset_type": "storyboard_ref",
+  "uploaded_count": 0,
+  "failed_count": 17,
+  "results": [
+    {
+      "id": "SEG-01-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-01-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-01-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-01-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 733659,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-01-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-02-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-02-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-02-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-02-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 704376,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-02-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-03-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-03-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-03-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-03-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 745103,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-03-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-04-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-04-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-04-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-04-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 658749,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-04-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-05-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-05-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-05-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-05-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 1143895,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-05-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-06-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-06-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-06-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-06-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 722000,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-06-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-07-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-07-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-07-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-07-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 1037899,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-07-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-08-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-08-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-08-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-08-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 1030903,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-08-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-09-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-09-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-09-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-09-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 699378,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-09-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-10-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-10-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-10-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-10-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 667439,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-10-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-11-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-11-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-11-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-11-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 1013661,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-11-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-12-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-12-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-12-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-12-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 988682,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-12-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-13-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-13-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-13-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-13-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 993097,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-13-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-14-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-14-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-14-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-14-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 1104234,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-14-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-15-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-15-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-15-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-15-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 636978,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-15-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-16-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-16-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-16-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-16-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 663319,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-16-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    },
+    {
+      "id": "SEG-17-故事板参考图.png",
+      "type": "storyboard_ref",
+      "local_path": "F:\\AA_Company_project\\AA_main\\Lexi\\Media\\Append\\workespace\\02_春节团圆\\故事板\\故事板参考图\\SEG-17-故事板参考图.png",
+      "oss_key": "lexilearnoss/video_workspace/Lexi/02_参考/支线/支线02/故事板参考图/SEG-17-故事板参考图.png",
+      "public_url": "https://getwallet.oss-cn-shenzhen.aliyuncs.com/lexilearnoss/video_workspace/Lexi/02_%E5%8F%82%E8%80%83/%E6%94%AF%E7%BA%BF/%E6%94%AF%E7%BA%BF02/%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE/SEG-17-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png",
+      "success": false,
+      "size": 670672,
+      "message": "上传失败：{'status': -2, 'x-oss-request-id': '', 'details': 'RequestError: HTTPSConnectionPool(host=\\'getwallet.oss-cn-shenzhen.aliyuncs.com\\', port=443): Max retries exceeded with url: /lexilearnoss%2Fvideo_workspace%2FLexi%2F02_%E5%8F%82%E8%80%83%2F%E6%94%AF%E7%BA%BF%2F%E6%94%AF%E7%BA%BF02%2F%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE%2FSEG-17-%E6%95%85%E4%BA%8B%E6%9D%BF%E5%8F%82%E8%80%83%E5%9B%BE.png (Caused by ProxyError(\\'Unable to connect to proxy\\', NewConnectionError(\"HTTPSConnection(host=\\'127.0.0.1\\', port=7890): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。\")))'}",
+      "archived_oss_key": ""
+    }
+  ]
+}

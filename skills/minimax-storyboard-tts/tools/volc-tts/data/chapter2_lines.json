@@ -1,0 +1,442 @@
+[
+  {
+    "scene": "第一节",
+    "lines": [
+      {
+        "id": "CH2-001",
+        "role": "jiang_che",
+        "text": "One hundred thousand yuan."
+      },
+      {
+        "id": "CH2-002",
+        "role": "narrator",
+        "text": "The school rejected the application because the budget was too high."
+      },
+      {
+        "id": "CH2-003",
+        "role": "an_qi",
+        "text": "Was it rejected?"
+      },
+      {
+        "id": "CH2-004",
+        "role": "jiang_che",
+        "text": "How did you know?"
+      },
+      {
+        "id": "CH2-005",
+        "role": "an_qi",
+        "text": "Director Wang always uses the same line: a clear academic value report is missing."
+      },
+      {
+        "id": "CH2-006",
+        "role": "jiang_che",
+        "text": "So do I apply again, or give up?"
+      },
+      {
+        "id": "CH2-007",
+        "role": "an_qi",
+        "text": "There is a third way."
+      },
+      {
+        "id": "CH2-008",
+        "role": "an_qi",
+        "text": "If the school will not pay, we find money outside."
+      },
+      {
+        "id": "CH2-009",
+        "role": "jiang_che",
+        "text": "What is the price?"
+      },
+      {
+        "id": "CH2-010",
+        "role": "an_qi",
+        "text": "They want their logo on the materials and their name in the report."
+      },
+      {
+        "id": "CH2-011",
+        "role": "jiang_che",
+        "text": "I cannot make a presentation."
+      },
+      {
+        "id": "CH2-012",
+        "role": "jiang_che",
+        "text": "I only write code and solder circuits."
+      },
+      {
+        "id": "CH2-013",
+        "role": "an_qi",
+        "text": "Then I will help you."
+      },
+      {
+        "id": "CH2-014",
+        "role": "jiang_che",
+        "text": "When did you arrange this?"
+      },
+      {
+        "id": "CH2-015",
+        "role": "an_qi",
+        "text": "After you sent me the coordinate data last night."
+      },
+      {
+        "id": "CH2-016",
+        "role": "an_qi",
+        "text": "I joined this project to integrate resources and negotiate."
+      },
+      {
+        "id": "CH2-017",
+        "role": "an_qi",
+        "text": "You need me, just as I need your technology."
+      },
+      {
+        "id": "CH2-018",
+        "role": "an_qi",
+        "text": "Are you coming, or do you not want the direction finder?"
+      }
+    ]
+  },
+  {
+    "scene": "第二节",
+    "lines": [
+      {
+        "id": "CH2-019",
+        "role": "narrator",
+        "text": "Hengyuan Education Technology looked like a futuristic palace."
+      },
+      {
+        "id": "CH2-020",
+        "role": "director_chen",
+        "text": "What can this project bring to Hengyuan?"
+      },
+      {
+        "id": "CH2-021",
+        "role": "an_qi",
+        "text": "Hengyuan is selling exploration and technology-empowered education this year."
+      },
+      {
+        "id": "CH2-022",
+        "role": "an_qi",
+        "text": "If Hengyuan becomes the exclusive sponsor, we can promise three things."
+      },
+      {
+        "id": "CH2-023",
+        "role": "an_qi",
+        "text": "Jiang Che will give a speech at the national science competition."
+      },
+      {
+        "id": "CH2-024",
+        "role": "director_chen",
+        "text": "A speech?"
+      },
+      {
+        "id": "CH2-025",
+        "role": "an_qi",
+        "text": "His personal story is the best brand narrative."
+      },
+      {
+        "id": "CH2-026",
+        "role": "director_chen",
+        "text": "Legal department, change the deposit clause to forty percent."
+      },
+      {
+        "id": "CH2-027",
+        "role": "director_chen",
+        "text": "Happy cooperation."
+      },
+      {
+        "id": "CH2-028",
+        "role": "director_chen",
+        "text": "We will pay forty thousand yuan as the deposit first."
+      },
+      {
+        "id": "CH2-029",
+        "role": "an_qi",
+        "text": "Forty thousand yuan is enough for your direction finder."
+      },
+      {
+        "id": "CH2-030",
+        "role": "jiang_che",
+        "text": "Is it true that I will speak at the national competition?"
+      },
+      {
+        "id": "CH2-031",
+        "role": "an_qi",
+        "text": "If the project goes well, why not?"
+      },
+      {
+        "id": "CH2-032",
+        "role": "jiang_che",
+        "text": "But what?"
+      },
+      {
+        "id": "CH2-033",
+        "role": "an_qi",
+        "text": "The final payment of sixty thousand yuan may disappear."
+      },
+      {
+        "id": "CH2-034",
+        "role": "an_qi",
+        "text": "Director Chen wants a return."
+      },
+      {
+        "id": "CH2-035",
+        "role": "an_qi",
+        "text": "Our story, your face, and Antarctica's signal are all commodities."
+      },
+      {
+        "id": "CH2-036",
+        "role": "jiang_che",
+        "text": "I understand."
+      }
+    ]
+  },
+  {
+    "scene": "第三节",
+    "lines": [
+      {
+        "id": "CH2-037",
+        "role": "narrator",
+        "text": "The terms changed three days later."
+      },
+      {
+        "id": "CH2-038",
+        "role": "an_qi",
+        "text": "This is an unfair clause."
+      },
+      {
+        "id": "CH2-039",
+        "role": "legal_staff",
+        "text": "You are minors, so the letter of intent has no legal force without guardian signatures."
+      },
+      {
+        "id": "CH2-040",
+        "role": "an_qi",
+        "text": "They tricked us from the very beginning."
+      },
+      {
+        "id": "CH2-041",
+        "role": "jiang_che",
+        "text": "What about the forty thousand yuan?"
+      },
+      {
+        "id": "CH2-042",
+        "role": "jiang_che",
+        "text": "Is there no other way?"
+      },
+      {
+        "id": "CH2-043",
+        "role": "narrator",
+        "text": "The chance of finding another sponsor in one month was almost zero."
+      }
+    ]
+  },
+  {
+    "scene": "第四节",
+    "lines": [
+      {
+        "id": "CH2-044",
+        "role": "narrator",
+        "text": "Jiang Che found his parents' Antarctica expedition diary."
+      },
+      {
+        "id": "CH2-045",
+        "role": "diary",
+        "text": "We decided to bury a signal transmitter under the Antarctic ice."
+      },
+      {
+        "id": "CH2-046",
+        "role": "diary",
+        "text": "It is not for military or commercial purposes, but as a mirror for the future."
+      },
+      {
+        "id": "CH2-047",
+        "role": "mother",
+        "text": "Stars never shine alone."
+      },
+      {
+        "id": "CH2-048",
+        "role": "narrator",
+        "text": "He suddenly knew what to do."
+      }
+    ]
+  },
+  {
+    "scene": "第五节",
+    "lines": [
+      {
+        "id": "CH2-049",
+        "role": "jiang_che",
+        "text": "I found our funding, but not from a company."
+      },
+      {
+        "id": "CH2-050",
+        "role": "an_qi",
+        "text": "What do you mean?"
+      },
+      {
+        "id": "CH2-051",
+        "role": "jiang_che",
+        "text": "These are my parents' notes from their Antarctic research."
+      },
+      {
+        "id": "CH2-052",
+        "role": "an_qi",
+        "text": "Do you want to sell them?"
+      },
+      {
+        "id": "CH2-053",
+        "role": "jiang_che",
+        "text": "No. I want to make an exhibition."
+      },
+      {
+        "id": "CH2-054",
+        "role": "jiang_che",
+        "text": "I made an interactive light installation with the scanned maps."
+      },
+      {
+        "id": "CH2-055",
+        "role": "an_qi",
+        "text": "How much will it cost?"
+      },
+      {
+        "id": "CH2-056",
+        "role": "jiang_che",
+        "text": "About three thousand yuan in materials."
+      },
+      {
+        "id": "CH2-057",
+        "role": "an_qi",
+        "text": "Where will the income come from?"
+      },
+      {
+        "id": "CH2-058",
+        "role": "jiang_che",
+        "text": "A charity sale."
+      },
+      {
+        "id": "CH2-059",
+        "role": "an_qi",
+        "text": "You forgot one key problem: promotion."
+      },
+      {
+        "id": "CH2-060",
+        "role": "jiang_che",
+        "text": "That is why I need you."
+      },
+      {
+        "id": "CH2-061",
+        "role": "jiang_che",
+        "text": "I handle technology and content; you bring the audience through the door."
+      },
+      {
+        "id": "CH2-062",
+        "role": "an_qi",
+        "text": "Good, but I have one condition."
+      },
+      {
+        "id": "CH2-063",
+        "role": "an_qi",
+        "text": "The exhibition needs a stronger title."
+      },
+      {
+        "id": "CH2-064",
+        "role": "an_qi",
+        "text": "Waiting for You at the End of the World."
+      },
+      {
+        "id": "CH2-065",
+        "role": "jiang_che",
+        "text": "Good."
+      }
+    ]
+  },
+  {
+    "scene": "第六节",
+    "lines": [
+      {
+        "id": "CH2-066",
+        "role": "narrator",
+        "text": "The opening day was unusually clear."
+      },
+      {
+        "id": "CH2-067",
+        "role": "an_qi",
+        "text": "Thank you for supporting Project Polaris."
+      },
+      {
+        "id": "CH2-068",
+        "role": "boy",
+        "text": "How did you make the floor respond?"
+      },
+      {
+        "id": "CH2-069",
+        "role": "jiang_che",
+        "text": "I used Arduino and pressure sensors under the floor."
+      },
+      {
+        "id": "CH2-070",
+        "role": "narrator",
+        "text": "By three p.m., more than one thousand visitors had entered the gallery."
+      },
+      {
+        "id": "CH2-071",
+        "role": "jiang_che",
+        "text": "Because stars never shine alone."
+      },
+      {
+        "id": "CH2-072",
+        "role": "an_qi",
+        "text": "Twenty-eight thousand four hundred yuan."
+      },
+      {
+        "id": "CH2-073",
+        "role": "an_qi",
+        "text": "It is enough to buy the direction finder."
+      },
+      {
+        "id": "CH2-074",
+        "role": "jiang_che",
+        "text": "Thank you."
+      },
+      {
+        "id": "CH2-075",
+        "role": "jiang_che",
+        "text": "One person may fail, but two people may find a way."
+      },
+      {
+        "id": "CH2-076",
+        "role": "an_qi",
+        "text": "Do not thank me too early."
+      },
+      {
+        "id": "CH2-077",
+        "role": "jiang_che",
+        "text": "I contacted the National Antarctic Expedition Office."
+      },
+      {
+        "id": "CH2-078",
+        "role": "an_qi",
+        "text": "When did you contact them?"
+      },
+      {
+        "id": "CH2-079",
+        "role": "jiang_che",
+        "text": "The night before the exhibition opened."
+      },
+      {
+        "id": "CH2-080",
+        "role": "jiang_che",
+        "text": "We need a backup plan."
+      },
+      {
+        "id": "CH2-081",
+        "role": "an_qi",
+        "text": "You are scary."
+      },
+      {
+        "id": "CH2-082",
+        "role": "an_qi",
+        "text": "Scary enough to make people want to stand beside you."
+      }
+    ]
+  }
+]
